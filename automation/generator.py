@@ -12,7 +12,7 @@ CSV_PATH = 'data/questions.csv'
 POSTS_DIR = '_posts'
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 def get_target_count():
     # 5 = Saturday, 6 = Sunday. 
