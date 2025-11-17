@@ -1,4 +1,4 @@
-import csv
+import json
 import os
 import datetime
 import re
@@ -6,12 +6,12 @@ import google.generativeai as genai
 from datetime import date
 
 # --- CONFIGURATION ---
-# This grabs the key from the secure vault
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-CSV_PATH = 'data/questions.csv'
+JSON_PATH = 'data/questions.json'  # Changed to JSON
 POSTS_DIR = '_posts'
 
 genai.configure(api_key=GEMINI_API_KEY)
+# Using the model you confirmed works
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 def get_target_count():
@@ -70,45 +70,50 @@ def main():
     target_count = get_target_count()
     print(f"Today's Target: {target_count}")
     
-    rows = []
-    processed_count = 0
-    
-    # Read CSV
-    if not os.path.exists(CSV_PATH):
-        print("CSV not found!")
+    # --- READ JSON ---
+    if not os.path.exists(JSON_PATH):
+        print(f"Error: File not found at {JSON_PATH}")
         return
 
-    with open(CSV_PATH, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        fieldnames = reader.fieldnames
-        if 'Status' not in fieldnames: fieldnames.append('Status')
-        rows = list(reader)
+    with open(JSON_PATH, 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-    # Process
-    for row in rows:
-        if processed_count >= target_count: break
-        if row.get('Status') == 'Published': continue
+    processed_count = 0
+
+    # --- PROCESS ENTRIES ---
+    for entry in data:
+        if processed_count >= target_count: 
+            break
+        
+        # Check if already published
+        if entry.get('Status') == 'Published':
+            continue
             
-        print(f"Generating: {row['Question'][:20]}...")
+        question_text = entry['Question']
+        print(f"Generating: {question_text[:30]}...")
+        
         try:
-            content = generate_blog_post(row['Question'])
+            content = generate_blog_post(question_text)
             # Clean up markdown code blocks if Gemini adds them
             content = content.replace("```markdown", "").replace("```", "")
             
-            filename = f"{date.today()}-{clean_filename(row['Question'])}.md"
+            filename = f"{date.today()}-{clean_filename(question_text)}.md"
             with open(os.path.join(POSTS_DIR, filename), 'w', encoding='utf-8') as f:
                 f.write(content)
                 
-            row['Status'] = 'Published'
+            # Update Status in Memory
+            entry['Status'] = 'Published'
             processed_count += 1
+            
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"Error generating content: {e}")
 
-    # Save CSV
-    with open(CSV_PATH, 'w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
-        writer.writeheader()
-        writer.writerows(rows)
+    # --- SAVE JSON ---
+    # This writes the updated status back to the file
+    with open(JSON_PATH, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+    
+    print(f"Run Complete. Generated {processed_count} posts.")
 
 if __name__ == "__main__":
     main()
