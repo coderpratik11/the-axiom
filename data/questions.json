@@ -21,19 +21,23 @@
   },
   {
     "Serial": 5,
-    "Question": "Map out the step-by-step process of a DNS lookup when a user types 'www.google.com' into their browser for the first time. Include Recursive and Authoritative nameservers."
+    "Question": "Map out the step-by-step process of a DNS lookup when a user types 'www.google.com' into their browser for the first time. Include Recursive and Authoritative nameservers.",
+    "Status": "Published"
   },
   {
     "Serial": 6,
-    "Question": "What were the primary performance bottlenecks of HTTP/1.1 that led to the development of HTTP/2? Explain concepts like multiplexing and server push."
+    "Question": "What were the primary performance bottlenecks of HTTP/1.1 that led to the development of HTTP/2? Explain concepts like multiplexing and server push.",
+    "Status": "Published"
   },
   {
     "Serial": 7,
-    "Question": "You are designing a global news website. How would you use a CDN to ensure fast load times for articles and images for users in Japan, Brazil, and Germany?"
+    "Question": "You are designing a global news website. How would you use a CDN to ensure fast load times for articles and images for users in Japan, Brazil, and Germany?",
+    "Status": "Published"
   },
   {
     "Serial": 8,
-    "Question": "What specific security guarantees does HTTPS provide that HTTP does not? Detail the high-level steps of the SSL/TLS handshake."
+    "Question": "What specific security guarantees does HTTPS provide that HTTP does not? Detail the high-level steps of the SSL/TLS handshake.",
+    "Status": "Published"
   },
   {
     "Serial": 9,
