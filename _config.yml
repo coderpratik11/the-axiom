@@ -1,0 +1,8 @@
+title: "The Axiom"
+description: "My automated system design learning journey"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+
+# This ensures posts show up even if timezone differences make them look like "future" posts
+future: true
