@@ -1,0 +1,29 @@
+name: Daily Blog Publisher
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight UTC daily
+  workflow_dispatch: # Allows manual run button
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - run: pip install -r automation/requirements.txt
+      - name: Run Generator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python automation/generator.py
+      - name: Save Changes
+        run: |
+          git config --global user.name 'AutoBot'
+          git config --global user.email 'bot@noreply.github.com'
+          git add _posts/ data/questions.csv
+          git commit -m "New Content Generated" || exit 0
+          git push
