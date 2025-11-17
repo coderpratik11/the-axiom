@@ -2,13 +2,15 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.4"
 
-# Core Plugins required by Chirpy
-gem "jekyll-remote-theme"
+# Install the actual theme gem instead of remote-theme
+gem "jekyll-theme-chirpy", "~> 7.2"
+
+# Required Plugins
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
-gem "jekyll-archives"       # <--- This was the missing piece!
-gem "jekyll-include-cache"  # <--- deeply recommended for performance
+gem "jekyll-archives"
+gem "jekyll-include-cache"
 
 # Required for GitHub Actions runner
 gem "webrick"
