@@ -1,8 +1,17 @@
 name: Build and Deploy
 on:
+  # Trigger 1: When you manually push code
   push:
     branches: ["main"]
-    paths-ignore: ["automation/**", "data/**"] # Don't rebuild on data changes only
+    paths-ignore: ["automation/**", "data/**"]
+    
+  # Trigger 2: When the Daily Bot finishes its job (THE FIX)
+  workflow_run:
+    workflows: ["Daily Blog Publisher"]
+    types:
+      - completed
+  
+  # Trigger 3: Manual button click
   workflow_dispatch:
 
 permissions:
