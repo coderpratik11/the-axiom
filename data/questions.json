@@ -1,19 +1,23 @@
 [
   {
     "Serial": 1,
-    "Question": "Explain the request-response lifecycle between a web browser and a server. How does this model form the basis of the internet?"
+    "Question": "Explain the request-response lifecycle between a web browser and a server. How does this model form the basis of the internet?",
+    "Status": "Published"
   },
   {
     "Serial": 2,
-    "Question": "A user clicks a link. Describe the journey of this request down the OSI model from the Application Layer on the client to the Physical Layer, and then back up the stack on the server."
+    "Question": "A user clicks a link. Describe the journey of this request down the OSI model from the Application Layer on the client to the Physical Layer, and then back up the stack on the server.",
+    "Status": "Published"
   },
   {
     "Serial": 3,
-    "Question": "How does a forwa/rd proxy differ from a reverse proxy? Provide a real-world use case for each (e.g., corporate network vs. web application scaling)."
+    "Question": "How does a forwa/rd proxy differ from a reverse proxy? Provide a real-world use case for each (e.g., corporate network vs. web application scaling).",
+    "Status": "Published"
   },
   {
     "Serial": 4,
-    "Question": "When would you choose UDP over TCP for an application? Discuss the trade-offs in the context of video streaming vs. file transfer."
+    "Question": "When would you choose UDP over TCP for an application? Discuss the trade-offs in the context of video streaming vs. file transfer.",
+    "Status": "Published"
   },
   {
     "Serial": 5,
