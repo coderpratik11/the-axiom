@@ -1,201 +1,201 @@
-Question
-Explain the request-response lifecycle between a web browser and a server. How does this model form the basis of the internet?
-A user clicks a link. Describe the journey of this request down the OSI model from the Application Layer on the client to the Physical Layer, and then back up the stack on the server.
-How does a forwa/rd proxy differ from a reverse proxy? Provide a real-world use case for each (e.g., corporate network vs. web application scaling).
-When would you choose UDP over TCP for an application? Discuss the trade-offs in the context of video streaming vs. file transfer.
-Map out the step-by-step process of a DNS lookup when a user types 'www.google.com' into their browser for the first time. Include Recursive and Authoritative nameservers.
-What were the primary performance bottlenecks of HTTP/1.1 that led to the development of HTTP/2? Explain concepts like multiplexing and server push.
-You are designing a global news website. How would you use a CDN to ensure fast load times for articles and images for users in Japan, Brazil, and Germany?
-What specific security guarantees does HTTPS provide that HTTP does not? Detail the high-level steps of the SSL/TLS handshake.
-Your application's database server is hitting 90% CPU usage. Compare and contrast the approaches of vertical and horizontal scaling to solve this problem.
-For a startup building a new social media app, would you recommend they start with IaaS, PaaS, or SaaS for their infrastructure? Justify your answer.
-Describe different load balancing algorithms (e.g., Round Robin, Least Connections, IP Hash). For a chat application with stateful connections, which algorithm would be most appropriate?
-What is the fundamental difference between a Layer 4 (Network) and Layer 7 (Application) load balancer? Provide an example of a routing decision only an L7 load balancer can make.
-Why is a stateless architecture a key principle for building highly scalable web applications? How do you manage user sessions in a stateless system?
-Explain the architectural differences between a Virtual Machine and a Container. Why have containers become the preferred choice for modern microservice-based applications?
-Explain the CAP theorem (Consistency, Availability, Partition Tolerance). For a banking system, which two properties would you prioritize and why? What about for a social media feed?
+Question,Status
+Explain the request-response lifecycle between a web browser and a server. How does this model form the basis of the internet?,Published
+A user clicks a link. Describe the journey of this request down the OSI model from the Application Layer on the client to the Physical Layer,Published
+How does a forwa/rd proxy differ from a reverse proxy? Provide a real-world use case for each (e.g.,Published
+When would you choose UDP over TCP for an application? Discuss the trade-offs in the context of video streaming vs. file transfer.,Published
+Map out the step-by-step process of a DNS lookup when a user types 'www.google.com' into their browser for the first time. Include Recursive and Authoritative nameservers.,
+What were the primary performance bottlenecks of HTTP/1.1 that led to the development of HTTP/2? Explain concepts like multiplexing and server push.,
+You are designing a global news website. How would you use a CDN to ensure fast load times for articles and images for users in Japan, Brazil
+What specific security guarantees does HTTPS provide that HTTP does not? Detail the high-level steps of the SSL/TLS handshake.,
+Your application's database server is hitting 90% CPU usage. Compare and contrast the approaches of vertical and horizontal scaling to solve this problem.,
+For a startup building a new social media app, would you recommend they start with IaaS
+Describe different load balancing algorithms (e.g., Round Robin
+What is the fundamental difference between a Layer 4 (Network) and Layer 7 (Application) load balancer? Provide an example of a routing decision only an L7 load balancer can make.,
+Why is a stateless architecture a key principle for building highly scalable web applications? How do you manage user sessions in a stateless system?,
+Explain the architectural differences between a Virtual Machine and a Container. Why have containers become the preferred choice for modern microservice-based applications?,
+Explain the CAP theorem (Consistency, Availability
 How do cloud providers like AWS use Regions and Availability Zones to offer high availability? Design a simple, highly-available two-tier web application architecture using these concepts.
-Design the SQL schema for a simple e-commerce platform with Products, Customers, and Orders. How would you model the many-to-many relationship between Orders and Products?
+Design the SQL schema for a simple e-commerce platform with Products, Customers
 Describe a basic Git workflow for a team of two developers working on the same feature. How do they avoid conflicts, and what is the purpose of a 'pull request'?
-Compare the four main types of NoSQL databases (Key-Value, Document, Column-Family, Graph). When would you choose a Document database over a Relational one?
-What are the primary advantages of using a managed database service like RDS over deploying and managing your own MySQL server on a VM? What are the potential downsides?
-Explain the difference between Cache-Aside, Read-Through, and Write-Through caching. Design a caching layer for a product catalog on an e-commerce site.
-When would you choose Redis over Memcached for a caching solution? Discuss the differences in data structures and persistence.
-How do database indexes work at a high level? What is the performance trade-off when adding an index to a frequently written table?
-Explain the difference between Object Storage (like S3), Block Storage (like EBS), and File Storage (like EFS). For storing user-uploaded profile pictures, which is most appropriate?
-Design a system for processing video uploads. How would you use a message queue to decouple the web server that accepts the upload from the fleet of worker servers that do the transcoding?
+Compare the four main types of NoSQL databases (Key-Value, Document
+What are the primary advantages of using a managed database service like RDS over deploying and managing your own MySQL server on a VM? What are the potential downsides?,
+Explain the difference between Cache-Aside, Read-Through
+When would you choose Redis over Memcached for a caching solution? Discuss the differences in data structures and persistence.,
+How do database indexes work at a high level? What is the performance trade-off when adding an index to a frequently written table?,
+Explain the difference between Object Storage (like S3), Block Storage (like EBS)
+Design a system for processing video uploads. How would you use a message queue to decouple the web server that accepts the upload from the fleet of worker servers that do the transcoding?,
 What is the difference between a standard queue and a FIFO queue in AWS SQS? For processing financial transactions, which would you use and why?
-How does the Publish/Subscribe pattern differ from a message queue? Design a notification system (email, SMS, push) using a pub/sub model.
-What is a VPC? Explain the purpose of public vs. private subnets in designing a secure cloud network architecture.
-Design a rate limiter for a public API. Discuss different algorithms (e.g., Token Bucket, Leaky Bucket) and where this component would sit in your architecture.
-What problem does a NAT Gateway solve for resources located in a private subnet? Explain how it enables outbound internet access while blocking inbound traffic.
-Debate the pros and cons of Monolithic vs. Microservice architectures. For a new, complex project with an uncertain feature set, which would you start with and why?
-Write a simple Dockerfile for a basic Node.js Express application. Explain what each command (FROM, WORKDIR, COPY, RUN, CMD) does.
-Design the REST API endpoints for a simple blogging platform (Users, Posts, Comments). Specify the HTTP verbs and URL structures.
+How does the Publish/Subscribe pattern differ from a message queue? Design a notification system (email, SMS
+What is a VPC? Explain the purpose of public vs. private subnets in designing a secure cloud network architecture.,
+Design a rate limiter for a public API. Discuss different algorithms (e.g., Token Bucket
+What problem does a NAT Gateway solve for resources located in a private subnet? Explain how it enables outbound internet access while blocking inbound traffic.,
+Debate the pros and cons of Monolithic vs. Microservice architectures. For a new, complex project with an uncertain feature set
+Write a simple Dockerfile for a basic Node.js Express application. Explain what each command (FROM, WORKDIR
+Design the REST API endpoints for a simple blogging platform (Users, Posts
 What is the principle of least privilege? How would you use IAM Roles to grant an EC2 instance temporary, secure access to an S3 bucket without hardcoding credentials?
-What is the difference between primary-secondary and primary-primary database replication? What are the benefits and drawbacks of each approach for read-heavy vs. write-heavy workloads?
-What is Continuous Integration? Describe the key steps in a CI process for a typical web application from the moment a developer pushes code.
-Your social media app's 'Users' table is a bottleneck. Design a sharding strategy for this table. What would you use as a shard key? What are the challenges (e.g., joins, hot spots)?
-What is the difference between Continuous Delivery and Continuous Deployment? Why might a company choose one over the other?
+What is the difference between primary-secondary and primary-primary database replication? What are the benefits and drawbacks of each approach for read-heavy vs. write-heavy workloads?,
+What is Continuous Integration? Describe the key steps in a CI process for a typical web application from the moment a developer pushes code.,
+Your social media app's 'Users' table is a bottleneck. Design a sharding strategy for this table. What would you use as a shard key? What are the challenges (e.g., joins
+What is the difference between Continuous Delivery and Continuous Deployment? Why might a company choose one over the other?,
 For the blogging platform from Day 17, how would you use GraphQL to solve the over-fetching/under-fetching problems inherent in the REST approach?
 What is the purpose of Docker Compose? Write a simple docker-compose.yml file to spin up a web application container and a separate Redis container, linking them together.
-Explain how consistent hashing helps to minimize data redistribution when adding or removing nodes in a distributed cache like Memcached.
-What is the role of a container orchestrator like Kubernetes? Describe the function of Pods, Services, and Deployments at a high level.
+Explain how consistent hashing helps to minimize data redistribution when adding or removing nodes in a distributed cache like Memcached.,
+What is the role of a container orchestrator like Kubernetes? Describe the function of Pods, Services
 In a microservices architecture, how do services find and communicate with each other when their instances and IP addresses are constantly changing?
-What is Serverless computing? Design a simple image thumbnail generation service using a Lambda function triggered by an S3 bucket upload event.
+What is Serverless computing? Design a simple image thumbnail generation service using a Lambda function triggered by an S3 bucket upload event.,
 In a distributed system, what is the leader election pattern used for? Describe how a system like ZooKeeper or etcd can be used to implement it.
-What is Infrastructure as Code? Write a basic Terraform configuration to provision a single EC2 instance in AWS.
-Design the architecture for a large-scale blob storage system like Amazon S3. How would you ensure durability and availability of the stored objects?
-What is BGP and what role does it play in the internet? Explain the concept of an Autonomous System (AS) at a high level.
-What is an idempotent API? Why is it a critical concept when designing systems that use message queues or retry mechanisms to handle payments?
-What are three common strategies for optimizing costs in a cloud environment (e.g., Reserved Instances, Spot Instances, rightsizing)?
-Design a URL shortening service. Your design should consider the API, the data model, and how to generate unique short keys at scale.
-What is the difference between metrics, logs, and traces? Name a popular tool for collecting metrics (e.g., Prometheus) and describe its pull-based architecture.
-Design a high-level architecture for a web crawler. How would you handle politeness (robots.txt), avoid duplicate URLs, and store the vast amount of data collected?
+What is Infrastructure as Code? Write a basic Terraform configuration to provision a single EC2 instance in AWS.,
+Design the architecture for a large-scale blob storage system like Amazon S3. How would you ensure durability and availability of the stored objects?,
+What is BGP and what role does it play in the internet? Explain the concept of an Autonomous System (AS) at a high level.,
+What is an idempotent API? Why is it a critical concept when designing systems that use message queues or retry mechanisms to handle payments?,
+What are three common strategies for optimizing costs in a cloud environment (e.g., Reserved Instances
+Design a URL shortening service. Your design should consider the API, the data model
+What is the difference between metrics, logs
+Design a high-level architecture for a web crawler. How would you handle politeness (robots.txt), avoid duplicate URLs
 In a distributed microservices environment, how would you centralize and manage logs from hundreds of containers? Describe the role of a tool like Fluentd or Logstash.
-Design a distributed key-value store. How would you handle partitioning, replication for fault tolerance, and data consistency models?
-What is Distributed Tracing? How do tools like Jaeger or Zipkin help developers debug latency issues in a microservices architecture?
-Design a distributed cache system from scratch. Discuss the challenges of cache invalidation, eviction policies (LRU, LFU), and preventing the 'thundering herd' problem.
-What is the difference between a Security Group and a Network Access Control List (NACL) in AWS? Which one is stateful and which is stateless?
-Design a service that can send millions of notifications (Push, SMS, Email) per day. The system should be scalable, reliable, and support different platforms.
-You are monitoring a critical API. How would you set up an alerting system to notify the on-call engineer if the p99 latency exceeds 500ms or the error rate goes above 1%?
-Design the backend for a news feed. Discuss the fan-out approach (push vs. pull) and how you would handle the 'celebrity' problem.
-What is the purpose of an API Gateway in a microservices architecture? Discuss its role in handling routing, authentication, and rate limiting.
-Design a typeahead suggestion service, like Google Search's autocomplete. How would you store the data (e.g., using a Trie) and ensure low-latency responses?
-What is a Service Mesh? How does it help manage inter-service communication, security (mTLS), and observability in a complex microservices landscape?
-Design a 1-on-1 and group chat application. How would you handle message delivery, online presence, and read receipts? What protocol would you use (e.g., WebSockets)?
+Design a distributed key-value store. How would you handle partitioning, replication for fault tolerance
+What is Distributed Tracing? How do tools like Jaeger or Zipkin help developers debug latency issues in a microservices architecture?,
+Design a distributed cache system from scratch. Discuss the challenges of cache invalidation, eviction policies (LRU
+What is the difference between a Security Group and a Network Access Control List (NACL) in AWS? Which one is stateful and which is stateless?,
+Design a service that can send millions of notifications (Push, SMS
+You are monitoring a critical API. How would you set up an alerting system to notify the on-call engineer if the p99 latency exceeds 500ms or the error rate goes above 1%?,
+Design the backend for a news feed. Discuss the fan-out approach (push vs. pull) and how you would handle the 'celebrity' problem.,
+What is the purpose of an API Gateway in a microservices architecture? Discuss its role in handling routing, authentication
+Design a typeahead suggestion service, like Google Search's autocomplete. How would you store the data (e.g.
+What is a Service Mesh? How does it help manage inter-service communication, security (mTLS)
+Design a 1-on-1 and group chat application. How would you handle message delivery, online presence
 How do WebSockets differ from HTTP? Why are they a better choice for real-time, bi-directional communication applications like a chat app or a collaborative editor?
-Design a service like Uber. Focus on the service that matches riders with available drivers in their vicinity. What data structures and APIs would be needed?
+Design a service like Uber. Focus on the service that matches riders with available drivers in their vicinity. What data structures and APIs would be needed?,
 How do databases like PostgreSQL (with PostGIS) or services like Elasticsearch handle geospatial queries (e.g., 'find all drivers within a 5km radius') efficiently?
-Design a file storage and synchronization service like Dropbox. How would you handle large file uploads, file versioning, and syncing data efficiently across multiple clients?
-What is QUIC? How does it aim to improve upon the performance and connection establishment time compared to TCP and TLS?
-Design a simplified stock trading exchange. Focus on the core component: the matching engine that matches buy and sell orders. How do you ensure fairness and low latency?
-What is Chaos Engineering? How do tools like Chaos Monkey help organizations build confidence in their system's ability to withstand turbulent conditions in production?
-Design a system to process credit card payments. What are the key components (e.g., payment gateway, processor, acquirer)? How do you ensure security and reliability?
-What is the difference between encryption at rest and encryption in transit? How would you use a service like AWS KMS to manage encryption keys securely?
-Design a hotel booking system. The main challenge is handling concurrency: how do you prevent two users from booking the same last available room at the same time?
-Compare and contrast Long Polling, WebSockets, and Server-Sent Events (SSE). For a live stock ticker application, which technology would you choose and why?
-Design a video streaming platform. Discuss the architecture for video ingestion, processing (transcoding), storage, and delivery (using a CDN and adaptive bitrate streaming).
-How does a cloud CDN like CloudFront work? Explain how it uses signed URLs or signed cookies to serve private content securely.
-Review the major patterns (Caching, Load Balancing, Sharding, Queues, etc.). Formulate a complex design question that uses at least three of these patterns and sketch the architecture.
-Review the CI/CD pipeline, containerization, orchestration, and observability stack. How do these pieces fit together to enable a high-performing DevOps culture?
+Design a file storage and synchronization service like Dropbox. How would you handle large file uploads, file versioning
+What is QUIC? How does it aim to improve upon the performance and connection establishment time compared to TCP and TLS?,
+Design a simplified stock trading exchange. Focus on the core component: the matching engine that matches buy and sell orders. How do you ensure fairness and low latency?,
+What is Chaos Engineering? How do tools like Chaos Monkey help organizations build confidence in their system's ability to withstand turbulent conditions in production?,
+Design a system to process credit card payments. What are the key components (e.g., payment gateway
+What is the difference between encryption at rest and encryption in transit? How would you use a service like AWS KMS to manage encryption keys securely?,
+Design a hotel booking system. The main challenge is handling concurrency: how do you prevent two users from booking the same last available room at the same time?,
+Compare and contrast Long Polling, WebSockets
+Design a video streaming platform. Discuss the architecture for video ingestion, processing (transcoding)
+How does a cloud CDN like CloudFront work? Explain how it uses signed URLs or signed cookies to serve private content securely.,
+Review the major patterns (Caching, Load Balancing
+Review the CI/CD pipeline, containerization
 What is the Two-Phase Commit (2PC) protocol? Explain the roles of the coordinator and participants. What are its major drawbacks, especially concerning blocking?
-How do Kubernetes StatefulSets differ from Deployments? Why are they essential for running stateful applications like databases (e.g., Zookeeper, etcd) on Kubernetes?
+How do Kubernetes StatefulSets differ from Deployments? Why are they essential for running stateful applications like databases (e.g., Zookeeper
 As an alternative to 2PC, explain the Saga pattern for managing distributed transactions. Describe the difference between Choreography and Orchestration-based sagas.
-How can a service like AWS Step Functions be used to implement an orchestration-based Saga pattern? Sketch a simple state machine for an e-commerce order process.
-Compare and contrast the properties of ACID and BASE consistency models. Provide an example of a system that requires ACID guarantees and one where BASE is acceptable.
-In a managed database like AWS DynamoDB or Cosmos DB, what are the different consistency levels offered (e.g., Eventual, Strong)? What are the performance and cost implications of choosing one over the other?
+How can a service like AWS Step Functions be used to implement an orchestration-based Saga pattern? Sketch a simple state machine for an e-commerce order process.,
+Compare and contrast the properties of ACID and BASE consistency models. Provide an example of a system that requires ACID guarantees and one where BASE is acceptable.,
+In a managed database like AWS DynamoDB or Cosmos DB, what are the different consistency levels offered (e.g.
 Explain the difference between optimistic and pessimistic concurrency control. In a highly collaborative system like a wiki, which approach is more suitable and why?
-What is Anycast routing? How do CDNs and DNS providers use Anycast to reduce latency and absorb DDoS attacks by directing users to the nearest node?
-What problem do consensus algorithms like Paxos and Raft solve in a distributed system? Explain the role of a leader and the voting process in Raft at a high level.
-What is the practical role of a system like etcd in a Kubernetes cluster? How does it use a consensus algorithm to maintain the cluster's state reliably?
-What is the 'thundering herd' problem in the context of a caching system? Describe a few techniques (e.g., using promises/locks, stale cache extensions) to mitigate it.
-Explain the purpose of liveness, readiness, and startup probes in Kubernetes. How do they help Kubernetes manage application lifecycle and achieve higher availability?
-What is backpressure in a distributed system? How can a streaming data processing system or a system with message queues implement backpressure to avoid being overwhelmed?
-Compare a managed streaming service like AWS Kinesis with a self-hosted one like Apache Kafka. What are the key architectural differences (e.g., brokers, partitions, consumer groups)?
+What is Anycast routing? How do CDNs and DNS providers use Anycast to reduce latency and absorb DDoS attacks by directing users to the nearest node?,
+What problem do consensus algorithms like Paxos and Raft solve in a distributed system? Explain the role of a leader and the voting process in Raft at a high level.,
+What is the practical role of a system like etcd in a Kubernetes cluster? How does it use a consensus algorithm to maintain the cluster's state reliably?,
+What is the 'thundering herd' problem in the context of a caching system? Describe a few techniques (e.g., using promises/locks
+Explain the purpose of liveness, readiness
+What is backpressure in a distributed system? How can a streaming data processing system or a system with message queues implement backpressure to avoid being overwhelmed?,
+Compare a managed streaming service like AWS Kinesis with a self-hosted one like Apache Kafka. What are the key architectural differences (e.g., brokers
 Design a distributed, fault-tolerant task scheduler. How would you ensure a job is executed exactly once? How would the system handle a worker node failure?
-What is GitOps? How does it use Git as the 'single source of truth' for declarative infrastructure and applications? Explain the role of an agent like Argo CD or Flux.
-Describe the high-level architecture of a distributed file system like HDFS. Explain the roles of the NameNode, DataNodes, and how it achieves fault tolerance for large files.
+What is GitOps? How does it use Git as the 'single source of truth' for declarative infrastructure and applications? Explain the role of an agent like Argo CD or Flux.,
+Describe the high-level architecture of a distributed file system like HDFS. Explain the roles of the NameNode, DataNodes
 What are the benefits of using a managed service like AWS EMR to run big data frameworks like Apache Spark and Hadoop, compared to setting up your own cluster on VMs?
-Design the backend for a search engine. Focus on the architecture of the indexing service and the query service. How would you store the inverted index to allow for fast lookups?
+Design the backend for a search engine. Focus on the architecture of the indexing service and the query service. How would you store the inverted index to allow for fast lookups?,
 What is Elasticsearch? How does it use an inverted index to provide fast full-text search capabilities? Discuss a use case beyond simple text search (e.g., log analytics).
-Design a system to reliably count ad clicks at massive scale. The system must be able to handle high throughput and provide near real-time analytics while filtering out fraudulent clicks.
-What is Helm and what problem does it solve in the Kubernetes ecosystem? Explain the concepts of a Chart, a Release, and a Repository.
-Design a service like Yelp that allows users to find nearby points of interest. How would you store and query geospatial data efficiently? What data structure (e.g., Quadtree, Geohash) would you use?
-What is a WAF? How does it protect a web application from common vulnerabilities like SQL Injection and Cross-Site Scripting (XSS) at the edge of the network?
-Explain the Circuit Breaker pattern. How does it improve the resilience of a microservices architecture by preventing cascading failures? Describe its three states: Closed, Open, and Half-Open.
-How does a service mesh like Istio or Linkerd implement resilience patterns like retries, timeouts, and circuit breakers without requiring changes to the application code?
+Design a system to reliably count ad clicks at massive scale. The system must be able to handle high throughput and provide near real-time analytics while filtering out fraudulent clicks.,
+What is Helm and what problem does it solve in the Kubernetes ecosystem? Explain the concepts of a Chart, a Release
+Design a service like Yelp that allows users to find nearby points of interest. How would you store and query geospatial data efficiently? What data structure (e.g., Quadtree
+What is a WAF? How does it protect a web application from common vulnerabilities like SQL Injection and Cross-Site Scripting (XSS) at the edge of the network?,
+Explain the Circuit Breaker pattern. How does it improve the resilience of a microservices architecture by preventing cascading failures? Describe its three states: Closed, Open
+How does a service mesh like Istio or Linkerd implement resilience patterns like retries, timeouts
 Design a high-level Real-Time Bidding system. This is a very low-latency, high-throughput problem. What are the architectural choices you'd make to meet a 100ms response deadline?
 What is Maximum Transmission Unit (MTU)? Explain what happens when a packet larger than the MTU of a network path needs to be transmitted, and the performance implications of fragmentation.
-Design the backend for a real-time collaborative editor. What are the challenges in handling concurrent edits? Discuss high-level approaches like Operational Transformation (OT) or CRDTs.
-Explain the difference between `git rebase` and `git merge`. When would you choose one over the other to integrate changes from one branch into another? What are the pros and cons of each?
-Why is idempotency crucial for designing reliable distributed systems? Provide three examples of how you would design an idempotent API endpoint for a payment processing service.
+Design the backend for a real-time collaborative editor. What are the challenges in handling concurrent edits? Discuss high-level approaches like Operational Transformation (OT) or CRDTs.,
+Explain the difference between `git rebase` and `git merge`. When would you choose one over the other to integrate changes from one branch into another? What are the pros and cons of each?,
+Why is idempotency crucial for designing reliable distributed systems? Provide three examples of how you would design an idempotent API endpoint for a payment processing service.,
 Why is it a bad practice to store secrets (like database passwords, API keys) in code or configuration files? How do tools like AWS Secrets Manager or Vault solve this problem securely?
-Design a digital wallet system. Focus on the core ledger system that tracks user balances. How do you ensure transactions are atomic and the ledger remains consistent?
-How does a service like AWS Shield or Cloudflare protect applications from Distributed Denial of Service (DDoS) attacks? Differentiate between volumetric, protocol, and application-layer attacks.
-Explain the MapReduce programming model. How does it allow for parallel processing of massive datasets on a large cluster of commodity hardware? Describe the Shuffle and Sort phase.
-What is a VLAN? How is it used to segment a physical network into multiple logical networks to improve security and manage traffic?
-Design a time-series monitoring system. How would you ingest, store, and query vast amounts of metrics data efficiently? Discuss the push vs. pull model for metrics collection.
-What makes an effective observability dashboard? Using a tool like Grafana, sketch out a dashboard for a web API that shows key metrics like request rate, error rate, and latency percentiles (p50, p90, p99).
-Design a scalable leaderboard for a gaming application with millions of users. How would you update scores and retrieve the top N users with low latency? (Hint: Redis Sorted Sets).
-What is a canary deployment? How does it reduce the risk of introducing a new software version in production compared to a traditional all-at-once deployment?
-Design a simplified version of a distributed message broker like Kafka. How would you design the commit log, handle partitions for scalability, and manage consumer offsets for at-least-once delivery?
+Design a digital wallet system. Focus on the core ledger system that tracks user balances. How do you ensure transactions are atomic and the ledger remains consistent?,
+How does a service like AWS Shield or Cloudflare protect applications from Distributed Denial of Service (DDoS) attacks? Differentiate between volumetric, protocol
+Explain the MapReduce programming model. How does it allow for parallel processing of massive datasets on a large cluster of commodity hardware? Describe the Shuffle and Sort phase.,
+What is a VLAN? How is it used to segment a physical network into multiple logical networks to improve security and manage traffic?,
+Design a time-series monitoring system. How would you ingest, store
+What makes an effective observability dashboard? Using a tool like Grafana, sketch out a dashboard for a web API that shows key metrics like request rate
+Design a scalable leaderboard for a gaming application with millions of users. How would you update scores and retrieve the top N users with low latency? (Hint: Redis Sorted Sets).,
+What is a canary deployment? How does it reduce the risk of introducing a new software version in production compared to a traditional all-at-once deployment?,
+Design a simplified version of a distributed message broker like Kafka. How would you design the commit log, handle partitions for scalability
 How does a VPN work to create a secure connection over an insecure network? In a cloud context, what is the purpose of a VPC Endpoint or Private Link?
-Explain the Trie data structure. How is it perfectly suited for implementing the backend of a typeahead suggestion service? Analyze its time complexity for insertion and search.
-What is Global Server Load Balancing (GSLB)? How does it use DNS to route users to the geographically closest or healthiest application endpoint?
+Explain the Trie data structure. How is it perfectly suited for implementing the backend of a typeahead suggestion service? Analyze its time complexity for insertion and search.,
+What is Global Server Load Balancing (GSLB)? How does it use DNS to route users to the geographically closest or healthiest application endpoint?,
 Explain what Bloom Filters and Count-Min Sketch are. How can these probabilistic data structures be used to solve problems at scale (e.g., 'has this username been seen before?') with minimal memory?
-What are some common causes of cost overruns in a Kubernetes cluster? How can tools like Kubecost or features like resource requests/limits help in managing and attributing costs?
-Design the backend for a real-time multiplayer game (like Agar.io). How do you manage player state, handle real-time communication, and mitigate latency?
-What is TCP Congestion Control and why is it necessary? Explain the high-level idea behind algorithms like Slow Start and Congestion Avoidance.
-Compare a multi-threaded server architecture (e.g., Apache) with a single-threaded event-loop model (e.g., Node.js). What are the pros and cons of each, especially regarding I/O-bound vs. CPU-bound tasks?
+What are some common causes of cost overruns in a Kubernetes cluster? How can tools like Kubecost or features like resource requests/limits help in managing and attributing costs?,
+Design the backend for a real-time multiplayer game (like Agar.io). How do you manage player state, handle real-time communication
+What is TCP Congestion Control and why is it necessary? Explain the high-level idea behind algorithms like Slow Start and Congestion Avoidance.,
+Compare a multi-threaded server architecture (e.g., Apache) with a single-threaded event-loop model (e.g.
 Describe the Blue-Green deployment strategy. How does it enable instant rollback? What are some challenges, especially concerning database schema changes?
-In a distributed data store that uses a consensus algorithm (like Zookeeper), what is a quorum? Explain why it's recommended to have an odd number of nodes in a cluster (e.g., 3, 5, 7).
-How does a native IaC tool like AWS CloudFormation differ from a cloud-agnostic one like Terraform? What is the concept of a 'stack' in CloudFormation?
-Design a system for booking tickets for popular events. The primary challenge is the 'flash sale' scenario. How do you handle the massive burst of concurrent traffic and avoid overselling?
-Explain the purpose of the following DNS record types: A, AAAA, CNAME, MX, and TXT. Provide a use case for each one.
-Explain how an LSM-Tree works. Why is this data structure, used by databases like Cassandra and RocksDB, highly optimized for write-heavy workloads?
+In a distributed data store that uses a consensus algorithm (like Zookeeper), what is a quorum? Explain why it's recommended to have an odd number of nodes in a cluster (e.g.
+How does a native IaC tool like AWS CloudFormation differ from a cloud-agnostic one like Terraform? What is the concept of a 'stack' in CloudFormation?,
+Design a system for booking tickets for popular events. The primary challenge is the 'flash sale' scenario. How do you handle the massive burst of concurrent traffic and avoid overselling?,
+Explain the purpose of the following DNS record types: A, AAAA
+Explain how an LSM-Tree works. Why is this data structure, used by databases like Cassandra and RocksDB
 What is the Kubernetes Operator pattern? How does it allow you to encode human operational knowledge into software to automate the management of complex, stateful applications?
-What is the Gossip protocol? How can it be used for service discovery or failure detection in a decentralized peer-to-peer network?
-What are the main advantages of using a managed Kubernetes service like EKS or GKE versus setting up a cluster from scratch on VMs? What part of the cluster do you still need to manage?
-What are the architectural trade-offs of a FaaS/Serverless architecture? Discuss challenges like cold starts, state management, and debugging.
-What is the Twelve-Factor App methodology? Pick three factors (e.g., Config, Dependencies, Logs) and explain how they contribute to building robust and scalable cloud-native applications.
-Design a proximity service that can tell a user the location of their friends in near real-time. How would you handle the frequent location updates from millions of users efficiently?
-What are the pillars of the AWS Well-Architected Framework (or its equivalent in GCP/Azure)? Pick one pillar (e.g., Security, Reliability) and describe two best practices.
-Explain the PACELC theorem as an extension of CAP. How does it provide a more complete framework for understanding the trade-offs in distributed systems by including latency (L) and consistency (C)?
-What is gRPC? How does it differ from REST over HTTP/1.1? Explain the roles of Protocol Buffers and HTTP/2 in its architecture.
-Design a simplified ad network. Focus on the data pipeline that collects impression/click data, processes it, and generates reports for advertisers.
-What is the difference between Infrastructure Monitoring (CPU, memory, disk of servers) and Application Performance Monitoring (APM - tracing, latency of specific endpoints)? Why do you need both?
-What are the common pitfalls and best practices for handling time zones in a global application? Why should servers almost always store and process time in UTC?
-How does a service like AWS CloudTrail provide a complete audit log of all API actions taken in your account? How can AWS Config be used to ensure your resources remain compliant with your policies?
+What is the Gossip protocol? How can it be used for service discovery or failure detection in a decentralized peer-to-peer network?,
+What are the main advantages of using a managed Kubernetes service like EKS or GKE versus setting up a cluster from scratch on VMs? What part of the cluster do you still need to manage?,
+What are the architectural trade-offs of a FaaS/Serverless architecture? Discuss challenges like cold starts, state management
+What is the Twelve-Factor App methodology? Pick three factors (e.g., Config
+Design a proximity service that can tell a user the location of their friends in near real-time. How would you handle the frequent location updates from millions of users efficiently?,
+What are the pillars of the AWS Well-Architected Framework (or its equivalent in GCP/Azure)? Pick one pillar (e.g., Security
+Explain the PACELC theorem as an extension of CAP. How does it provide a more complete framework for understanding the trade-offs in distributed systems by including latency (L) and consistency (C)?,
+What is gRPC? How does it differ from REST over HTTP/1.1? Explain the roles of Protocol Buffers and HTTP/2 in its architecture.,
+Design a simplified ad network. Focus on the data pipeline that collects impression/click data, processes it
+What is the difference between Infrastructure Monitoring (CPU, memory
+What are the common pitfalls and best practices for handling time zones in a global application? Why should servers almost always store and process time in UTC?,
+How does a service like AWS CloudTrail provide a complete audit log of all API actions taken in your account? How can AWS Config be used to ensure your resources remain compliant with your policies?,
 Revisit the rate limiter design. Design a distributed rate limiter that can be shared across multiple API gateway instances. How would you store the counts with low latency (e.g., using Redis)?
 What is Policy as Code? How can a tool like Open Policy Agent (OPA) be used to enforce custom policies in your Kubernetes cluster (e.g., 'all images must come from a trusted registry')?
 Design a system for redeeming unique, single-use coupon codes. How do you prevent the same code from being used twice in a high-concurrency scenario? How do you generate millions of unique codes?
 What is BGP hijacking? At a high level, explain how an attacker can illegitimately reroute internet traffic by announcing IP prefixes they do not own.
-Design a multi-tier caching architecture for a read-heavy application. Discuss the role and placement of a client-side cache, CDN cache, and a backend distributed cache (like Redis).
-How does a cloud data warehouse like BigQuery differ from a traditional transactional database (OLTP)? Explain its columnar storage architecture and how it's optimized for analytical queries (OLAP).
-What is graceful degradation? For an e-commerce site under extreme load, what non-critical features could you temporarily disable (e.g., recommendations, reviews) to protect the core checkout functionality?
+Design a multi-tier caching architecture for a read-heavy application. Discuss the role and placement of a client-side cache, CDN cache
+How does a cloud data warehouse like BigQuery differ from a traditional transactional database (OLTP)? Explain its columnar storage architecture and how it's optimized for analytical queries (OLAP).,
+What is graceful degradation? For an e-commerce site under extreme load, what non-critical features could you temporarily disable (e.g.
 What are feature flags? How do they decouple code deployment from feature release, enabling practices like canary rollouts and A/B testing?
-Revisit consistent hashing. How does the use of 'virtual nodes' or 'replicas' help to ensure a more even distribution of data across physical nodes and mitigate hot spots?
-According to the Performance Efficiency pillar of the Well-Architected Framework, what are the key areas to consider when designing a system (e.g., Selection, Review, Monitoring, Tradeoffs)?
-Design a stock photo website. Focus on the image processing pipeline (upload, thumbnail generation, metadata extraction) and the content delivery network strategy for fast global access.
-What are the main advantages of HTTP/3 over HTTP/2? Explain how its use of QUIC over UDP solves problems like head-of-line blocking at the transport layer.
+Revisit consistent hashing. How does the use of 'virtual nodes' or 'replicas' help to ensure a more even distribution of data across physical nodes and mitigate hot spots?,
+According to the Performance Efficiency pillar of the Well-Architected Framework, what are the key areas to consider when designing a system (e.g.
+Design a stock photo website. Focus on the image processing pipeline (upload, thumbnail generation
+What are the main advantages of HTTP/3 over HTTP/2? Explain how its use of QUIC over UDP solves problems like head-of-line blocking at the transport layer.,
 What is the principle of 'Zero Trust' in network security? How does it differ from a traditional perimeter-based security model (i.e., castle-and-moat)?
-Explain the relationship between an Identity Provider (e.g., Okta, Google Identity) and a Service Provider (e.g., Salesforce, Slack) in a federated identity setup using SAML or OIDC.
-What is the CQRS pattern? How does separating the command model (for writes) from the query model (for reads) help in scaling complex domains?
-What is Event Sourcing? How does it complement the CQRS pattern by storing the state of an application as a sequence of immutable events? What are the benefits for auditability?
-Design a system for scanning, storing, and serving millions of books. Focus on the OCR (Optical Character Recognition) pipeline and the challenges of indexing a massive text corpus for search.
-What is mTLS? How does it provide strong, two-way authentication between services in a microservices architecture, ensuring that both client and server can verify each other's identity?
-Design a service that allows developers to monitor their APIs. Focus on the data ingestion pipeline for metrics and logs, the time-series database storage, and the query/alerting system.
-According to the Cost Optimization pillar, what are some key design principles for building cost-aware architectures? Discuss concepts like matching supply and demand, and analyzing spend.
-As an architect, how do you decide whether to build a new component from scratch versus buying a COTS (Commercial Off-The-Shelf) solution or using a SaaS provider? What factors (cost, expertise, time-to-market) influence this decision?
-Define Service Level Indicator (SLI), Service Level Objective (SLO), and Service Level Agreement (SLA). Provide a practical example for an API endpoint (e.g., p99 latency < 200ms).
-Compare and contrast the Lambda and Kappa architectures for big data processing. Why has the Kappa architecture gained popularity with the rise of modern streaming platforms like Kafka?
-What is a Data Lake? How does it differ from a Data Warehouse? Explain how a data lake can store structured, semi-structured, and unstructured data for various analytical workloads.
-Revisit the hotel booking problem. Design the database schema and locking strategy (e.g., pessimistic, optimistic with versioning) to handle concurrent requests for the same room and date range, ensuring no double bookings.
-What is threat modeling? For a simple e-commerce website, walk through a basic STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) analysis.
+Explain the relationship between an Identity Provider (e.g., Okta
+What is the CQRS pattern? How does separating the command model (for writes) from the query model (for reads) help in scaling complex domains?,
+What is Event Sourcing? How does it complement the CQRS pattern by storing the state of an application as a sequence of immutable events? What are the benefits for auditability?,
+Design a system for scanning, storing
+What is mTLS? How does it provide strong, two-way authentication between services in a microservices architecture
+Design a service that allows developers to monitor their APIs. Focus on the data ingestion pipeline for metrics and logs, the time-series database storage
+According to the Cost Optimization pillar, what are some key design principles for building cost-aware architectures? Discuss concepts like matching supply and demand
+As an architect, how do you decide whether to build a new component from scratch versus buying a COTS (Commercial Off-The-Shelf) solution or using a SaaS provider? What factors (cost
+Define Service Level Indicator (SLI), Service Level Objective (SLO)
+Compare and contrast the Lambda and Kappa architectures for big data processing. Why has the Kappa architecture gained popularity with the rise of modern streaming platforms like Kafka?,
+What is a Data Lake? How does it differ from a Data Warehouse? Explain how a data lake can store structured, semi-structured
+Revisit the hotel booking problem. Design the database schema and locking strategy (e.g., pessimistic
+What is threat modeling? For a simple e-commerce website, walk through a basic STRIDE (Spoofing
 Design a distributed, highly available system for running scheduled jobs (like cron). How do you prevent a job from running twice or not at all if a node fails? How do you handle jobs that overrun their schedule?
-What is secret rotation and why is it a critical security practice? How can a secrets management tool like HashiCorp Vault or AWS Secrets Manager automate the process of rotating database credentials?
+What is secret rotation and why is it a critical security practice? How can a secrets management tool like HashiCorp Vault or AWS Secrets Manager automate the process of rotating database credentials?,
 Design a system to prevent other websites from embedding your images or videos on their pages, which consumes your bandwidth. Discuss solutions like checking the HTTP Referer header and using signed URLs.
-What is CORS and what security problem does the Same-Origin Policy solve? Explain the role of the `Access-Control-Allow-Origin` header in a simple CORS request.
-Design the backend for a massive multiplayer online game. Focus on the architecture for matchmaking, managing player state in real-time across a large world, and minimizing latency.
+What is CORS and what security problem does the Same-Origin Policy solve? Explain the role of the `Access-Control-Allow-Origin` header in a simple CORS request.,
+Design the backend for a massive multiplayer online game. Focus on the architecture for matchmaking, managing player state in real-time across a large world
 What is edge computing? How can services like AWS Wavelength or Cloudflare Workers be used to deploy application logic closer to end-users, especially for latency-sensitive applications like online gaming?
-Design a simplified PaaS like Heroku. How would you take a developer's `git push`, build it into a container, deploy it, and manage its lifecycle and networking?
-What is immutable infrastructure? Why is it a more reliable and predictable approach to manage infrastructure compared to mutable infrastructure where servers are updated in-place?
-For a new social media startup, discuss the trade-offs between Time-to-Market, Cost, Scalability, and Reliability. How would your architectural choices differ at Day 1 vs. Day 365?
-What is the difference between a multi-cloud and a hybrid cloud strategy? What are the primary drivers (e.g., cost optimization, disaster recovery, avoiding vendor lock-in) for an enterprise to adopt such a strategy?
-How does incorporating a Large Language Model (e.g., Gemini) impact system architecture? Discuss new components needed, such as vector databases for RAG, prompt management systems, and handling streaming responses.
-What is a vector database (e.g., Pinecone, Chroma)? Why is it essential for building applications that perform semantic search or implement Retrieval-Augmented Generation (RAG) with LLMs?
-Design a service like Pastebin.com. How would you generate unique, memorable URLs? How would you handle custom URLs, expiration of pastes, and syntax highlighting?
-According to the Reliability pillar, what are the three key areas for designing reliable systems? (Foundations, Change Management, Failure Management). Give an example for each.
-Design the architecture for a 'Google Docs' like application that supports offline editing. How would you store local changes and synchronize them with the server once connectivity is restored? What is the challenge of conflict resolution?
+Design a simplified PaaS like Heroku. How would you take a developer's `git push`, build it into a container
+What is immutable infrastructure? Why is it a more reliable and predictable approach to manage infrastructure compared to mutable infrastructure where servers are updated in-place?,
+For a new social media startup, discuss the trade-offs between Time-to-Market
+What is the difference between a multi-cloud and a hybrid cloud strategy? What are the primary drivers (e.g., cost optimization
+How does incorporating a Large Language Model (e.g., Gemini) impact system architecture? Discuss new components needed
+What is a vector database (e.g., Pinecone
+Design a service like Pastebin.com. How would you generate unique, memorable URLs? How would you handle custom URLs
+According to the Reliability pillar, what are the three key areas for designing reliable systems? (Foundations
+Design the architecture for a 'Google Docs' like application that supports offline editing. How would you store local changes and synchronize them with the server once connectivity is restored? What is the challenge of conflict resolution?,
 What are some best practices for managing database schema migrations in a CI/CD pipeline, especially in a zero-downtime deployment scenario? Discuss tools like Flyway or Liquibase.
-Describe a step-by-step framework for approaching a system design interview. Include clarifying requirements, defining the scope, high-level design, deep dive into components, and discussing trade-offs.
-Trace the complete journey of a packet from your laptop on a Wi-Fi network to a server in a different country. Mention key steps like local routing, NAT, ISP routing (BGP), and data center networking.
-Design the core features of Instagram: photo/video uploads, the news feed, and the follower graph. Be prepared to discuss the storage for media, the data models, and the fan-out logic for the feed.
-Review the three pillars of observability: Metrics, Logs, and Traces. How do they work together to give you a complete picture of your system's health and performance?
-Design a distributed web crawler that can crawl billions of pages. Discuss how to manage the list of URLs to visit, how to handle politeness (robots.txt), and how to process and store the downloaded content.
-Review key cloud-native design patterns like Sidecar, Ambassador, and Adapter. How do these patterns, often used in Kubernetes, help extend application functionality without changing the core code?
-Design a global video-on-demand streaming service. Focus on the video processing pipeline, the storage and CDN strategy, and the backend services that handle metadata, user profiles, and recommendations.
-Review the full CI/CD pipeline from code commit to production. Compare the pros and cons of rolling updates, blue-green deployments, and canary releases. When would you use each?
-Synthesize everything you've learned to design Twitter. You must consider the Tweet service, Timeline/Feed generation service, User/Graph service, Search, and Trending Topics. Sketch the complete, high-level architecture.
-The journey is complete, but learning never stops. What are your strategies for staying current with the ever-changing landscape of technology? (e.g., reading engineering blogs, attending conferences, contributing to open source).
+Describe a step-by-step framework for approaching a system design interview. Include clarifying requirements, defining the scope
+Trace the complete journey of a packet from your laptop on a Wi-Fi network to a server in a different country. Mention key steps like local routing, NAT
+Design the core features of Instagram: photo/video uploads, the news feed
+Review the three pillars of observability: Metrics, Logs
+Design a distributed web crawler that can crawl billions of pages. Discuss how to manage the list of URLs to visit, how to handle politeness (robots.txt)
+Review key cloud-native design patterns like Sidecar, Ambassador
+Design a global video-on-demand streaming service. Focus on the video processing pipeline, the storage and CDN strategy
+Review the full CI/CD pipeline from code commit to production. Compare the pros and cons of rolling updates, blue-green deployments
+Synthesize everything you've learned to design Twitter. You must consider the Tweet service, Timeline/Feed generation service
+The journey is complete, but learning never stops. What are your strategies for staying current with the ever-changing landscape of technology? (e.g.
