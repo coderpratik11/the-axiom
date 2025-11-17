@@ -16,31 +16,45 @@ def clean_filename(text):
     return re.sub(r'[^a-zA-Z0-9\s-]', '', text).strip().replace(' ', '-').lower()[:50]
 
 def generate_blog_post(question_text):
-    # We ask Gemini to generate the Front Matter explicitly for Chirpy
     prompt = f"""
-    Act as a Staff Engineer. Write a technical blog post for: "{question_text}"
+    You are a Principal Software Engineer writing a technical blog post. 
+    The Topic is: "{question_text}"
     
-    **CRITICAL FORMATTING RULES:**
-    1. You MUST start with YAML Front Matter.
-    2. `categories` must be a list: [System Design, <Specific Subtopic>].
-    3. `tags` must be lowercase: [<tag1>, <tag2>, <tag3>].
-    
-    Output format:
+    **DESIGN INSTRUCTIONS (Strictly Follow):**
+    1. **Layout:** Use proper Markdown headers (##, ###) to structure the article.
+    2. **Visuals:** Use tables for comparisons (e.g., Pros vs Cons).
+    3. **Emphasis:** Use **bold** for key terms and `code blocks` for technical concepts.
+    4. **Callouts:** Use blockquotes (>) for important "Pro Tips" or "Warnings".
+    5. **Tone:** Professional, concise, and educational.
+
+    **FRONT MATTER RULES:**
+    - You MUST start with YAML Front Matter.
+    - `toc: true` is MANDATORY.
+    - `layout: post` is MANDATORY.
+    - `categories` must be [System Design, <Subtopic>].
+    - `tags` must be lowercase.
+
+    **Output Structure:**
     ---
     title: "{question_text}"
     date: {date.today().strftime("%Y-%m-%d")}
-    categories: [System Design, Deep Dive]
-    tags: [architecture, learning]
+    categories: [System Design, Concepts]
+    tags: [interview, architecture, learning]
+    toc: true
+    layout: post
     ---
     
-    # 1. The Concept
-    (Explain simply)
+    ## 1. The Core Concept
+    (Explain the concept simply using an analogy. Use a > blockquote for the definition.)
 
-    # 2. Real World Analogy
-    (Story time)
+    ## 2. Deep Dive & Architecture
+    (Technical details. Use `code snippets` or bullet points.)
 
-    # 3. Technical Deep Dive
-    (Bottlenecks, Resolutions, Technologies)
+    ## 3. Comparison / Trade-offs
+    (MUST include a Markdown Table comparing options, e.g., TCP vs UDP or SQL vs NoSQL.)
+
+    ## 4. Real-World Use Case
+    (Where is this used? e.g., Netflix, Uber. Explain the "Why".)
     """
     
     try:
@@ -54,7 +68,7 @@ def main():
     if not os.path.exists(POSTS_DIR):
         os.makedirs(POSTS_DIR)
 
-    # Get Target Count (4 or 8)
+    # Weekend = 8 posts, Weekday = 4 posts
     target_count = 8 if date.today().weekday() >= 5 else 4
     print(f"Target: {target_count}")
     
@@ -69,6 +83,8 @@ def main():
 
     for entry in data:
         if processed_count >= target_count: break
+        
+        # Skip if already published
         if entry.get('Status') == 'Published': continue
             
         print(f"Processing: {entry['Question'][:30]}...")
@@ -76,7 +92,7 @@ def main():
         content = generate_blog_post(entry['Question'])
         
         if content:
-            # Clean up if Gemini wrapped it in markdown quotes
+            # Cleanup markdown wrapper if present
             content = content.replace("```markdown", "").replace("```", "").strip()
             
             filename = f"{date.today()}-{clean_filename(entry['Question'])}.md"
