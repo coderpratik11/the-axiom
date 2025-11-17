@@ -1,8 +1,24 @@
-title: "The Axiom"
-description: "My automated system design learning journey"
-theme: jekyll-theme-minimal
+# --- Site Info ---
+title: The Axiom
+tagline: Daily System Design Learning
+description: My automated journey to becoming an Expert Architect.
+url: "https://coderpratik11.github.io"
+baseurl: "/the-axiom" # IMPORTANT: This must match your repo name
+
+# --- The Theme ---
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# --- Automation Settings ---
+future: true        # Shows posts dated "tomorrow" (crucial for your bot)
+timezone: Asia/Kolkata # Adjust if needed
+
+# --- Chirpy Settings ---
+lang: en
+paginate: 10        # How many posts per page
+theme_mode: light   # Options: light, dark, or manual
+
+# --- Plugins ---
 plugins:
   - jekyll-seo-tag
-
-# This ensures posts show up even if timezone differences make them look like "future" posts
-future: true
+  - jekyll-sitemap
+  - jekyll-paginate
