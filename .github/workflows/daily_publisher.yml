@@ -24,6 +24,6 @@ jobs:
         run: |
           git config --global user.name 'AutoBot'
           git config --global user.email 'bot@noreply.github.com'
-          git add _posts/ data/questions.csv
+          git add _posts/ data/questions.json
           git commit -m "New Content Generated" || exit 0
           git push
