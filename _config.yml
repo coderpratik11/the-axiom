@@ -5,6 +5,8 @@ description: My automated journey to becoming an Expert Architect.
 url: "https://coderpratik11.github.io" 
 baseurl: "/the-axiom" 
 
+avatar: https://avatars.githubusercontent.com/u/89000938?v=4
+
 # --- Theme Settings (CHANGED) ---
 theme: jekyll-theme-chirpy  # Use 'theme', not 'remote_theme'
 
