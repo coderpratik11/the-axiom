@@ -22,3 +22,9 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-include-cache
+
+# --- Collections (Crucial for _tabs to work) ---
+collections:
+  tabs:
+    output: true
+    sort_by: order
