@@ -13,7 +13,7 @@ future: true
 timezone: Asia/Kolkata 
 lang: en
 paginate: 10
-theme_mode: light
+theme_mode: dark
 
 # --- Plugins ---
 plugins:
