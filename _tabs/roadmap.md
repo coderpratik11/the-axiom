@@ -1,18 +1,9 @@
 ---
-# The layout must be 'page' for a custom list
 layout: page
-
-# Title appears in the sidebar
 title: Roadmap
-
-# This icon appears in the sidebar (FontAwesome)
-icon: fas fa-stream
-
-# The order in the sidebar (Home is 1, Categories is 2...)
-order: 4
-
-# The URL where this page lives
 permalink: /roadmap/
+icon: fas fa-map-signs  # Changed to a safe "Map" icon
+order: 4
 ---
 
 # 🗺️ Learning Roadmap
