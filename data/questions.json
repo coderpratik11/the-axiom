@@ -41,19 +41,23 @@
   },
   {
     "Serial": 9,
-    "Question": "Your application's database server is hitting 90% CPU usage. Compare and contrast the approaches of vertical and horizontal scaling to solve this problem."
+    "Question": "Your application's database server is hitting 90% CPU usage. Compare and contrast the approaches of vertical and horizontal scaling to solve this problem.",
+    "Status": "Published"
   },
   {
     "Serial": 10,
-    "Question": "For a startup building a new social media app, would you recommend they start with IaaS, PaaS, or SaaS for their infrastructure? Justify your answer."
+    "Question": "For a startup building a new social media app, would you recommend they start with IaaS, PaaS, or SaaS for their infrastructure? Justify your answer.",
+    "Status": "Published"
   },
   {
     "Serial": 11,
-    "Question": "Describe different load balancing algorithms (e.g., Round Robin, Least Connections, IP Hash). For a chat application with stateful connections, which algorithm would be most appropriate?"
+    "Question": "Describe different load balancing algorithms (e.g., Round Robin, Least Connections, IP Hash). For a chat application with stateful connections, which algorithm would be most appropriate?",
+    "Status": "Published"
   },
   {
     "Serial": 12,
-    "Question": "What is the fundamental difference between a Layer 4 (Network) and Layer 7 (Application) load balancer? Provide an example of a routing decision only an L7 load balancer can make."
+    "Question": "What is the fundamental difference between a Layer 4 (Network) and Layer 7 (Application) load balancer? Provide an example of a routing decision only an L7 load balancer can make.",
+    "Status": "Published"
   },
   {
     "Serial": 13,
