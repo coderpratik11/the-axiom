@@ -61,19 +61,23 @@
   },
   {
     "Serial": 13,
-    "Question": "Why is a stateless architecture a key principle for building highly scalable web applications? How do you manage user sessions in a stateless system?"
+    "Question": "Why is a stateless architecture a key principle for building highly scalable web applications? How do you manage user sessions in a stateless system?",
+    "Status": "Published"
   },
   {
     "Serial": 14,
-    "Question": "Explain the architectural differences between a Virtual Machine and a Container. Why have containers become the preferred choice for modern microservice-based applications?"
+    "Question": "Explain the architectural differences between a Virtual Machine and a Container. Why have containers become the preferred choice for modern microservice-based applications?",
+    "Status": "Published"
   },
   {
     "Serial": 15,
-    "Question": "Explain the CAP theorem (Consistency, Availability, Partition Tolerance). For a banking system, which two properties would you prioritize and why? What about for a social media feed?"
+    "Question": "Explain the CAP theorem (Consistency, Availability, Partition Tolerance). For a banking system, which two properties would you prioritize and why? What about for a social media feed?",
+    "Status": "Published"
   },
   {
     "Serial": 16,
-    "Question": "How do cloud providers like AWS use Regions and Availability Zones to offer high availability? Design a simple, highly-available two-tier web application architecture using these concepts."
+    "Question": "How do cloud providers like AWS use Regions and Availability Zones to offer high availability? Design a simple, highly-available two-tier web application architecture using these concepts.",
+    "Status": "Published"
   },
   {
     "Serial": 17,
