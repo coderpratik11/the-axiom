@@ -81,19 +81,23 @@
   },
   {
     "Serial": 17,
-    "Question": "Design the SQL schema for a simple e-commerce platform with Products, Customers, and Orders. How would you model the many-to-many relationship between Orders and Products?"
+    "Question": "Design the SQL schema for a simple e-commerce platform with Products, Customers, and Orders. How would you model the many-to-many relationship between Orders and Products?",
+    "Status": "Published"
   },
   {
     "Serial": 18,
-    "Question": "Describe a basic Git workflow for a team of two developers working on the same feature. How do they avoid conflicts, and what is the purpose of a 'pull request'?"
+    "Question": "Describe a basic Git workflow for a team of two developers working on the same feature. How do they avoid conflicts, and what is the purpose of a 'pull request'?",
+    "Status": "Published"
   },
   {
     "Serial": 19,
-    "Question": "Compare the four main types of NoSQL databases (Key-Value, Document, Column-Family, Graph). When would you choose a Document database over a Relational one?"
+    "Question": "Compare the four main types of NoSQL databases (Key-Value, Document, Column-Family, Graph). When would you choose a Document database over a Relational one?",
+    "Status": "Published"
   },
   {
     "Serial": 20,
-    "Question": "What are the primary advantages of using a managed database service like RDS over deploying and managing your own MySQL server on a VM? What are the potential downsides?"
+    "Question": "What are the primary advantages of using a managed database service like RDS over deploying and managing your own MySQL server on a VM? What are the potential downsides?",
+    "Status": "Published"
   },
   {
     "Serial": 21,
