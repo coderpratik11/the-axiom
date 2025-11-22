@@ -101,35 +101,43 @@
   },
   {
     "Serial": 21,
-    "Question": "Explain the difference between Cache-Aside, Read-Through, and Write-Through caching. Design a caching layer for a product catalog on an e-commerce site."
+    "Question": "Explain the difference between Cache-Aside, Read-Through, and Write-Through caching. Design a caching layer for a product catalog on an e-commerce site.",
+    "Status": "Published"
   },
   {
     "Serial": 22,
-    "Question": "When would you choose Redis over Memcached for a caching solution? Discuss the differences in data structures and persistence."
+    "Question": "When would you choose Redis over Memcached for a caching solution? Discuss the differences in data structures and persistence.",
+    "Status": "Published"
   },
   {
     "Serial": 23,
-    "Question": "How do database indexes work at a high level? What is the performance trade-off when adding an index to a frequently written table?"
+    "Question": "How do database indexes work at a high level? What is the performance trade-off when adding an index to a frequently written table?",
+    "Status": "Published"
   },
   {
     "Serial": 24,
-    "Question": "Explain the difference between Object Storage (like S3), Block Storage (like EBS), and File Storage (like EFS). For storing user-uploaded profile pictures, which is most appropriate?"
+    "Question": "Explain the difference between Object Storage (like S3), Block Storage (like EBS), and File Storage (like EFS). For storing user-uploaded profile pictures, which is most appropriate?",
+    "Status": "Published"
   },
   {
     "Serial": 25,
-    "Question": "Design a system for processing video uploads. How would you use a message queue to decouple the web server that accepts the upload from the fleet of worker servers that do the transcoding?"
+    "Question": "Design a system for processing video uploads. How would you use a message queue to decouple the web server that accepts the upload from the fleet of worker servers that do the transcoding?",
+    "Status": "Published"
   },
   {
     "Serial": 26,
-    "Question": "What is the difference between a standard queue and a FIFO queue in AWS SQS? For processing financial transactions, which would you use and why?"
+    "Question": "What is the difference between a standard queue and a FIFO queue in AWS SQS? For processing financial transactions, which would you use and why?",
+    "Status": "Published"
   },
   {
     "Serial": 27,
-    "Question": "How does the Publish/Subscribe pattern differ from a message queue? Design a notification system (email, SMS, push) using a pub/sub model."
+    "Question": "How does the Publish/Subscribe pattern differ from a message queue? Design a notification system (email, SMS, push) using a pub/sub model.",
+    "Status": "Published"
   },
   {
     "Serial": 28,
-    "Question": "What is a VPC? Explain the purpose of public vs. private subnets in designing a secure cloud network architecture."
+    "Question": "What is a VPC? Explain the purpose of public vs. private subnets in designing a secure cloud network architecture.",
+    "Status": "Published"
   },
   {
     "Serial": 29,
