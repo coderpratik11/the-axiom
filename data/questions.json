@@ -141,35 +141,43 @@
   },
   {
     "Serial": 29,
-    "Question": "Design a rate limiter for a public API. Discuss different algorithms (e.g., Token Bucket, Leaky Bucket) and where this component would sit in your architecture."
+    "Question": "Design a rate limiter for a public API. Discuss different algorithms (e.g., Token Bucket, Leaky Bucket) and where this component would sit in your architecture.",
+    "Status": "Published"
   },
   {
     "Serial": 30,
-    "Question": "What problem does a NAT Gateway solve for resources located in a private subnet? Explain how it enables outbound internet access while blocking inbound traffic."
+    "Question": "What problem does a NAT Gateway solve for resources located in a private subnet? Explain how it enables outbound internet access while blocking inbound traffic.",
+    "Status": "Published"
   },
   {
     "Serial": 31,
-    "Question": "Debate the pros and cons of Monolithic vs. Microservice architectures. For a new, complex project with an uncertain feature set, which would you start with and why?"
+    "Question": "Debate the pros and cons of Monolithic vs. Microservice architectures. For a new, complex project with an uncertain feature set, which would you start with and why?",
+    "Status": "Published"
   },
   {
     "Serial": 32,
-    "Question": "Write a simple Dockerfile for a basic Node.js Express application. Explain what each command (FROM, WORKDIR, COPY, RUN, CMD) does."
+    "Question": "Write a simple Dockerfile for a basic Node.js Express application. Explain what each command (FROM, WORKDIR, COPY, RUN, CMD) does.",
+    "Status": "Published"
   },
   {
     "Serial": 33,
-    "Question": "Design the REST API endpoints for a simple blogging platform (Users, Posts, Comments). Specify the HTTP verbs and URL structures."
+    "Question": "Design the REST API endpoints for a simple blogging platform (Users, Posts, Comments). Specify the HTTP verbs and URL structures.",
+    "Status": "Published"
   },
   {
     "Serial": 34,
-    "Question": "What is the principle of least privilege? How would you use IAM Roles to grant an EC2 instance temporary, secure access to an S3 bucket without hardcoding credentials?"
+    "Question": "What is the principle of least privilege? How would you use IAM Roles to grant an EC2 instance temporary, secure access to an S3 bucket without hardcoding credentials?",
+    "Status": "Published"
   },
   {
     "Serial": 35,
-    "Question": "What is the difference between primary-secondary and primary-primary database replication? What are the benefits and drawbacks of each approach for read-heavy vs. write-heavy workloads?"
+    "Question": "What is the difference between primary-secondary and primary-primary database replication? What are the benefits and drawbacks of each approach for read-heavy vs. write-heavy workloads?",
+    "Status": "Published"
   },
   {
     "Serial": 36,
-    "Question": "What is Continuous Integration? Describe the key steps in a CI process for a typical web application from the moment a developer pushes code."
+    "Question": "What is Continuous Integration? Describe the key steps in a CI process for a typical web application from the moment a developer pushes code.",
+    "Status": "Published"
   },
   {
     "Serial": 37,
