@@ -181,19 +181,23 @@
   },
   {
     "Serial": 37,
-    "Question": "Your social media app's 'Users' table is a bottleneck. Design a sharding strategy for this table. What would you use as a shard key? What are the challenges (e.g., joins, hot spots)?"
+    "Question": "Your social media app's 'Users' table is a bottleneck. Design a sharding strategy for this table. What would you use as a shard key? What are the challenges (e.g., joins, hot spots)?",
+    "Status": "Published"
   },
   {
     "Serial": 38,
-    "Question": "What is the difference between Continuous Delivery and Continuous Deployment? Why might a company choose one over the other?"
+    "Question": "What is the difference between Continuous Delivery and Continuous Deployment? Why might a company choose one over the other?",
+    "Status": "Published"
   },
   {
     "Serial": 39,
-    "Question": "For the blogging platform from Day 17, how would you use GraphQL to solve the over-fetching/under-fetching problems inherent in the REST approach?"
+    "Question": "For the blogging platform from Day 17, how would you use GraphQL to solve the over-fetching/under-fetching problems inherent in the REST approach?",
+    "Status": "Published"
   },
   {
     "Serial": 40,
-    "Question": "What is the purpose of Docker Compose? Write a simple docker-compose.yml file to spin up a web application container and a separate Redis container, linking them together."
+    "Question": "What is the purpose of Docker Compose? Write a simple docker-compose.yml file to spin up a web application container and a separate Redis container, linking them together.",
+    "Status": "Published"
   },
   {
     "Serial": 41,
