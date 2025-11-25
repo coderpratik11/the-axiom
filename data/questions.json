@@ -201,19 +201,23 @@
   },
   {
     "Serial": 41,
-    "Question": "Explain how consistent hashing helps to minimize data redistribution when adding or removing nodes in a distributed cache like Memcached."
+    "Question": "Explain how consistent hashing helps to minimize data redistribution when adding or removing nodes in a distributed cache like Memcached.",
+    "Status": "Published"
   },
   {
     "Serial": 42,
-    "Question": "What is the role of a container orchestrator like Kubernetes? Describe the function of Pods, Services, and Deployments at a high level."
+    "Question": "What is the role of a container orchestrator like Kubernetes? Describe the function of Pods, Services, and Deployments at a high level.",
+    "Status": "Published"
   },
   {
     "Serial": 43,
-    "Question": "In a microservices architecture, how do services find and communicate with each other when their instances and IP addresses are constantly changing?"
+    "Question": "In a microservices architecture, how do services find and communicate with each other when their instances and IP addresses are constantly changing?",
+    "Status": "Published"
   },
   {
     "Serial": 44,
-    "Question": "What is Serverless computing? Design a simple image thumbnail generation service using a Lambda function triggered by an S3 bucket upload event."
+    "Question": "What is Serverless computing? Design a simple image thumbnail generation service using a Lambda function triggered by an S3 bucket upload event.",
+    "Status": "Published"
   },
   {
     "Serial": 45,
