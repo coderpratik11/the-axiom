@@ -221,19 +221,23 @@
   },
   {
     "Serial": 45,
-    "Question": "In a distributed system, what is the leader election pattern used for? Describe how a system like ZooKeeper or etcd can be used to implement it."
+    "Question": "In a distributed system, what is the leader election pattern used for? Describe how a system like ZooKeeper or etcd can be used to implement it.",
+    "Status": "Published"
   },
   {
     "Serial": 46,
-    "Question": "What is Infrastructure as Code? Write a basic Terraform configuration to provision a single EC2 instance in AWS."
+    "Question": "What is Infrastructure as Code? Write a basic Terraform configuration to provision a single EC2 instance in AWS.",
+    "Status": "Published"
   },
   {
     "Serial": 47,
-    "Question": "Design the architecture for a large-scale blob storage system like Amazon S3. How would you ensure durability and availability of the stored objects?"
+    "Question": "Design the architecture for a large-scale blob storage system like Amazon S3. How would you ensure durability and availability of the stored objects?",
+    "Status": "Published"
   },
   {
     "Serial": 48,
-    "Question": "What is BGP and what role does it play in the internet? Explain the concept of an Autonomous System (AS) at a high level."
+    "Question": "What is BGP and what role does it play in the internet? Explain the concept of an Autonomous System (AS) at a high level.",
+    "Status": "Published"
   },
   {
     "Serial": 49,
