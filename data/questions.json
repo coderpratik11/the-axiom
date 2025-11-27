@@ -241,19 +241,23 @@
   },
   {
     "Serial": 49,
-    "Question": "What is an idempotent API? Why is it a critical concept when designing systems that use message queues or retry mechanisms to handle payments?"
+    "Question": "What is an idempotent API? Why is it a critical concept when designing systems that use message queues or retry mechanisms to handle payments?",
+    "Status": "Published"
   },
   {
     "Serial": 50,
-    "Question": "What are three common strategies for optimizing costs in a cloud environment (e.g., Reserved Instances, Spot Instances, rightsizing)?"
+    "Question": "What are three common strategies for optimizing costs in a cloud environment (e.g., Reserved Instances, Spot Instances, rightsizing)?",
+    "Status": "Published"
   },
   {
     "Serial": 51,
-    "Question": "Design a URL shortening service. Your design should consider the API, the data model, and how to generate unique short keys at scale."
+    "Question": "Design a URL shortening service. Your design should consider the API, the data model, and how to generate unique short keys at scale.",
+    "Status": "Published"
   },
   {
     "Serial": 52,
-    "Question": "What is the difference between metrics, logs, and traces? Name a popular tool for collecting metrics (e.g., Prometheus) and describe its pull-based architecture."
+    "Question": "What is the difference between metrics, logs, and traces? Name a popular tool for collecting metrics (e.g., Prometheus) and describe its pull-based architecture.",
+    "Status": "Published"
   },
   {
     "Serial": 53,
