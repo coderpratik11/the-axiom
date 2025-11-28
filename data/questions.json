@@ -261,19 +261,23 @@
   },
   {
     "Serial": 53,
-    "Question": "Design a high-level architecture for a web crawler. How would you handle politeness (robots.txt), avoid duplicate URLs, and store the vast amount of data collected?"
+    "Question": "Design a high-level architecture for a web crawler. How would you handle politeness (robots.txt), avoid duplicate URLs, and store the vast amount of data collected?",
+    "Status": "Published"
   },
   {
     "Serial": 54,
-    "Question": "In a distributed microservices environment, how would you centralize and manage logs from hundreds of containers? Describe the role of a tool like Fluentd or Logstash."
+    "Question": "In a distributed microservices environment, how would you centralize and manage logs from hundreds of containers? Describe the role of a tool like Fluentd or Logstash.",
+    "Status": "Published"
   },
   {
     "Serial": 55,
-    "Question": "Design a distributed key-value store. How would you handle partitioning, replication for fault tolerance, and data consistency models?"
+    "Question": "Design a distributed key-value store. How would you handle partitioning, replication for fault tolerance, and data consistency models?",
+    "Status": "Published"
   },
   {
     "Serial": 56,
-    "Question": "What is Distributed Tracing? How do tools like Jaeger or Zipkin help developers debug latency issues in a microservices architecture?"
+    "Question": "What is Distributed Tracing? How do tools like Jaeger or Zipkin help developers debug latency issues in a microservices architecture?",
+    "Status": "Published"
   },
   {
     "Serial": 57,
