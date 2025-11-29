@@ -281,35 +281,43 @@
   },
   {
     "Serial": 57,
-    "Question": "Design a distributed cache system from scratch. Discuss the challenges of cache invalidation, eviction policies (LRU, LFU), and preventing the 'thundering herd' problem."
+    "Question": "Design a distributed cache system from scratch. Discuss the challenges of cache invalidation, eviction policies (LRU, LFU), and preventing the 'thundering herd' problem.",
+    "Status": "Published"
   },
   {
     "Serial": 58,
-    "Question": "What is the difference between a Security Group and a Network Access Control List (NACL) in AWS? Which one is stateful and which is stateless?"
+    "Question": "What is the difference between a Security Group and a Network Access Control List (NACL) in AWS? Which one is stateful and which is stateless?",
+    "Status": "Published"
   },
   {
     "Serial": 59,
-    "Question": "Design a service that can send millions of notifications (Push, SMS, Email) per day. The system should be scalable, reliable, and support different platforms."
+    "Question": "Design a service that can send millions of notifications (Push, SMS, Email) per day. The system should be scalable, reliable, and support different platforms.",
+    "Status": "Published"
   },
   {
     "Serial": 60,
-    "Question": "You are monitoring a critical API. How would you set up an alerting system to notify the on-call engineer if the p99 latency exceeds 500ms or the error rate goes above 1%?"
+    "Question": "You are monitoring a critical API. How would you set up an alerting system to notify the on-call engineer if the p99 latency exceeds 500ms or the error rate goes above 1%?",
+    "Status": "Published"
   },
   {
     "Serial": 61,
-    "Question": "Design the backend for a news feed. Discuss the fan-out approach (push vs. pull) and how you would handle the 'celebrity' problem."
+    "Question": "Design the backend for a news feed. Discuss the fan-out approach (push vs. pull) and how you would handle the 'celebrity' problem.",
+    "Status": "Published"
   },
   {
     "Serial": 62,
-    "Question": "What is the purpose of an API Gateway in a microservices architecture? Discuss its role in handling routing, authentication, and rate limiting."
+    "Question": "What is the purpose of an API Gateway in a microservices architecture? Discuss its role in handling routing, authentication, and rate limiting.",
+    "Status": "Published"
   },
   {
     "Serial": 63,
-    "Question": "Design a typeahead suggestion service, like Google Search's autocomplete. How would you store the data (e.g., using a Trie) and ensure low-latency responses?"
+    "Question": "Design a typeahead suggestion service, like Google Search's autocomplete. How would you store the data (e.g., using a Trie) and ensure low-latency responses?",
+    "Status": "Published"
   },
   {
     "Serial": 64,
-    "Question": "What is a Service Mesh? How does it help manage inter-service communication, security (mTLS), and observability in a complex microservices landscape?"
+    "Question": "What is a Service Mesh? How does it help manage inter-service communication, security (mTLS), and observability in a complex microservices landscape?",
+    "Status": "Published"
   },
   {
     "Serial": 65,
