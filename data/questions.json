@@ -321,35 +321,43 @@
   },
   {
     "Serial": 65,
-    "Question": "Design a 1-on-1 and group chat application. How would you handle message delivery, online presence, and read receipts? What protocol would you use (e.g., WebSockets)?"
+    "Question": "Design a 1-on-1 and group chat application. How would you handle message delivery, online presence, and read receipts? What protocol would you use (e.g., WebSockets)?",
+    "Status": "Published"
   },
   {
     "Serial": 66,
-    "Question": "How do WebSockets differ from HTTP? Why are they a better choice for real-time, bi-directional communication applications like a chat app or a collaborative editor?"
+    "Question": "How do WebSockets differ from HTTP? Why are they a better choice for real-time, bi-directional communication applications like a chat app or a collaborative editor?",
+    "Status": "Published"
   },
   {
     "Serial": 67,
-    "Question": "Design a service like Uber. Focus on the service that matches riders with available drivers in their vicinity. What data structures and APIs would be needed?"
+    "Question": "Design a service like Uber. Focus on the service that matches riders with available drivers in their vicinity. What data structures and APIs would be needed?",
+    "Status": "Published"
   },
   {
     "Serial": 68,
-    "Question": "How do databases like PostgreSQL (with PostGIS) or services like Elasticsearch handle geospatial queries (e.g., 'find all drivers within a 5km radius') efficiently?"
+    "Question": "How do databases like PostgreSQL (with PostGIS) or services like Elasticsearch handle geospatial queries (e.g., 'find all drivers within a 5km radius') efficiently?",
+    "Status": "Published"
   },
   {
     "Serial": 69,
-    "Question": "Design a file storage and synchronization service like Dropbox. How would you handle large file uploads, file versioning, and syncing data efficiently across multiple clients?"
+    "Question": "Design a file storage and synchronization service like Dropbox. How would you handle large file uploads, file versioning, and syncing data efficiently across multiple clients?",
+    "Status": "Published"
   },
   {
     "Serial": 70,
-    "Question": "What is QUIC? How does it aim to improve upon the performance and connection establishment time compared to TCP and TLS?"
+    "Question": "What is QUIC? How does it aim to improve upon the performance and connection establishment time compared to TCP and TLS?",
+    "Status": "Published"
   },
   {
     "Serial": 71,
-    "Question": "Design a simplified stock trading exchange. Focus on the core component: the matching engine that matches buy and sell orders. How do you ensure fairness and low latency?"
+    "Question": "Design a simplified stock trading exchange. Focus on the core component: the matching engine that matches buy and sell orders. How do you ensure fairness and low latency?",
+    "Status": "Published"
   },
   {
     "Serial": 72,
-    "Question": "What is Chaos Engineering? How do tools like Chaos Monkey help organizations build confidence in their system's ability to withstand turbulent conditions in production?"
+    "Question": "What is Chaos Engineering? How do tools like Chaos Monkey help organizations build confidence in their system's ability to withstand turbulent conditions in production?",
+    "Status": "Published"
   },
   {
     "Serial": 73,
