@@ -361,19 +361,23 @@
   },
   {
     "Serial": 73,
-    "Question": "Design a system to process credit card payments. What are the key components (e.g., payment gateway, processor, acquirer)? How do you ensure security and reliability?"
+    "Question": "Design a system to process credit card payments. What are the key components (e.g., payment gateway, processor, acquirer)? How do you ensure security and reliability?",
+    "Status": "Published"
   },
   {
     "Serial": 74,
-    "Question": "What is the difference between encryption at rest and encryption in transit? How would you use a service like AWS KMS to manage encryption keys securely?"
+    "Question": "What is the difference between encryption at rest and encryption in transit? How would you use a service like AWS KMS to manage encryption keys securely?",
+    "Status": "Published"
   },
   {
     "Serial": 75,
-    "Question": "Design a hotel booking system. The main challenge is handling concurrency: how do you prevent two users from booking the same last available room at the same time?"
+    "Question": "Design a hotel booking system. The main challenge is handling concurrency: how do you prevent two users from booking the same last available room at the same time?",
+    "Status": "Published"
   },
   {
     "Serial": 76,
-    "Question": "Compare and contrast Long Polling, WebSockets, and Server-Sent Events (SSE). For a live stock ticker application, which technology would you choose and why?"
+    "Question": "Compare and contrast Long Polling, WebSockets, and Server-Sent Events (SSE). For a live stock ticker application, which technology would you choose and why?",
+    "Status": "Published"
   },
   {
     "Serial": 77,
