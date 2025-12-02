@@ -381,19 +381,23 @@
   },
   {
     "Serial": 77,
-    "Question": "Design a video streaming platform. Discuss the architecture for video ingestion, processing (transcoding), storage, and delivery (using a CDN and adaptive bitrate streaming)."
+    "Question": "Design a video streaming platform. Discuss the architecture for video ingestion, processing (transcoding), storage, and delivery (using a CDN and adaptive bitrate streaming).",
+    "Status": "Published"
   },
   {
     "Serial": 78,
-    "Question": "How does a cloud CDN like CloudFront work? Explain how it uses signed URLs or signed cookies to serve private content securely."
+    "Question": "How does a cloud CDN like CloudFront work? Explain how it uses signed URLs or signed cookies to serve private content securely.",
+    "Status": "Published"
   },
   {
     "Serial": 79,
-    "Question": "Review the major patterns (Caching, Load Balancing, Sharding, Queues, etc.). Formulate a complex design question that uses at least three of these patterns and sketch the architecture."
+    "Question": "Review the major patterns (Caching, Load Balancing, Sharding, Queues, etc.). Formulate a complex design question that uses at least three of these patterns and sketch the architecture.",
+    "Status": "Published"
   },
   {
     "Serial": 80,
-    "Question": "Review the CI/CD pipeline, containerization, orchestration, and observability stack. How do these pieces fit together to enable a high-performing DevOps culture?"
+    "Question": "Review the CI/CD pipeline, containerization, orchestration, and observability stack. How do these pieces fit together to enable a high-performing DevOps culture?",
+    "Status": "Published"
   },
   {
     "Serial": 81,
