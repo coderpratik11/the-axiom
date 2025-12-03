@@ -401,19 +401,23 @@
   },
   {
     "Serial": 81,
-    "Question": "What is the Two-Phase Commit (2PC) protocol? Explain the roles of the coordinator and participants. What are its major drawbacks, especially concerning blocking?"
+    "Question": "What is the Two-Phase Commit (2PC) protocol? Explain the roles of the coordinator and participants. What are its major drawbacks, especially concerning blocking?",
+    "Status": "Published"
   },
   {
     "Serial": 82,
-    "Question": "How do Kubernetes StatefulSets differ from Deployments? Why are they essential for running stateful applications like databases (e.g., Zookeeper, etcd) on Kubernetes?"
+    "Question": "How do Kubernetes StatefulSets differ from Deployments? Why are they essential for running stateful applications like databases (e.g., Zookeeper, etcd) on Kubernetes?",
+    "Status": "Published"
   },
   {
     "Serial": 83,
-    "Question": "As an alternative to 2PC, explain the Saga pattern for managing distributed transactions. Describe the difference between Choreography and Orchestration-based sagas."
+    "Question": "As an alternative to 2PC, explain the Saga pattern for managing distributed transactions. Describe the difference between Choreography and Orchestration-based sagas.",
+    "Status": "Published"
   },
   {
     "Serial": 84,
-    "Question": "How can a service like AWS Step Functions be used to implement an orchestration-based Saga pattern? Sketch a simple state machine for an e-commerce order process."
+    "Question": "How can a service like AWS Step Functions be used to implement an orchestration-based Saga pattern? Sketch a simple state machine for an e-commerce order process.",
+    "Status": "Published"
   },
   {
     "Serial": 85,
