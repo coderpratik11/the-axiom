@@ -421,7 +421,8 @@
   },
   {
     "Serial": 85,
-    "Question": "Compare and contrast the properties of ACID and BASE consistency models. Provide an example of a system that requires ACID guarantees and one where BASE is acceptable."
+    "Question": "Compare and contrast the properties of ACID and BASE consistency models. Provide an example of a system that requires ACID guarantees and one where BASE is acceptable.",
+    "Status": "Published"
   },
   {
     "Serial": 86,
@@ -429,15 +430,18 @@
   },
   {
     "Serial": 87,
-    "Question": "Explain the difference between optimistic and pessimistic concurrency control. In a highly collaborative system like a wiki, which approach is more suitable and why?"
+    "Question": "Explain the difference between optimistic and pessimistic concurrency control. In a highly collaborative system like a wiki, which approach is more suitable and why?",
+    "Status": "Published"
   },
   {
     "Serial": 88,
-    "Question": "What is Anycast routing? How do CDNs and DNS providers use Anycast to reduce latency and absorb DDoS attacks by directing users to the nearest node?"
+    "Question": "What is Anycast routing? How do CDNs and DNS providers use Anycast to reduce latency and absorb DDoS attacks by directing users to the nearest node?",
+    "Status": "Published"
   },
   {
     "Serial": 89,
-    "Question": "What problem do consensus algorithms like Paxos and Raft solve in a distributed system? Explain the role of a leader and the voting process in Raft at a high level."
+    "Question": "What problem do consensus algorithms like Paxos and Raft solve in a distributed system? Explain the role of a leader and the voting process in Raft at a high level.",
+    "Status": "Published"
   },
   {
     "Serial": 90,
