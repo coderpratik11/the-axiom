@@ -426,7 +426,8 @@
   },
   {
     "Serial": 86,
-    "Question": "In a managed database like AWS DynamoDB or Cosmos DB, what are the different consistency levels offered (e.g., Eventual, Strong)? What are the performance and cost implications of choosing one over the other?"
+    "Question": "In a managed database like AWS DynamoDB or Cosmos DB, what are the different consistency levels offered (e.g., Eventual, Strong)? What are the performance and cost implications of choosing one over the other?",
+    "Status": "Published"
   },
   {
     "Serial": 87,
@@ -445,15 +446,18 @@
   },
   {
     "Serial": 90,
-    "Question": "What is the practical role of a system like etcd in a Kubernetes cluster? How does it use a consensus algorithm to maintain the cluster's state reliably?"
+    "Question": "What is the practical role of a system like etcd in a Kubernetes cluster? How does it use a consensus algorithm to maintain the cluster's state reliably?",
+    "Status": "Published"
   },
   {
     "Serial": 91,
-    "Question": "What is the 'thundering herd' problem in the context of a caching system? Describe a few techniques (e.g., using promises/locks, stale cache extensions) to mitigate it."
+    "Question": "What is the 'thundering herd' problem in the context of a caching system? Describe a few techniques (e.g., using promises/locks, stale cache extensions) to mitigate it.",
+    "Status": "Published"
   },
   {
     "Serial": 92,
-    "Question": "Explain the purpose of liveness, readiness, and startup probes in Kubernetes. How do they help Kubernetes manage application lifecycle and achieve higher availability?"
+    "Question": "Explain the purpose of liveness, readiness, and startup probes in Kubernetes. How do they help Kubernetes manage application lifecycle and achieve higher availability?",
+    "Status": "Published"
   },
   {
     "Serial": 93,
