@@ -461,35 +461,43 @@
   },
   {
     "Serial": 93,
-    "Question": "What is backpressure in a distributed system? How can a streaming data processing system or a system with message queues implement backpressure to avoid being overwhelmed?"
+    "Question": "What is backpressure in a distributed system? How can a streaming data processing system or a system with message queues implement backpressure to avoid being overwhelmed?",
+    "Status": "Published"
   },
   {
     "Serial": 94,
-    "Question": "Compare a managed streaming service like AWS Kinesis with a self-hosted one like Apache Kafka. What are the key architectural differences (e.g., brokers, partitions, consumer groups)?"
+    "Question": "Compare a managed streaming service like AWS Kinesis with a self-hosted one like Apache Kafka. What are the key architectural differences (e.g., brokers, partitions, consumer groups)?",
+    "Status": "Published"
   },
   {
     "Serial": 95,
-    "Question": "Design a distributed, fault-tolerant task scheduler. How would you ensure a job is executed exactly once? How would the system handle a worker node failure?"
+    "Question": "Design a distributed, fault-tolerant task scheduler. How would you ensure a job is executed exactly once? How would the system handle a worker node failure?",
+    "Status": "Published"
   },
   {
     "Serial": 96,
-    "Question": "What is GitOps? How does it use Git as the 'single source of truth' for declarative infrastructure and applications? Explain the role of an agent like Argo CD or Flux."
+    "Question": "What is GitOps? How does it use Git as the 'single source of truth' for declarative infrastructure and applications? Explain the role of an agent like Argo CD or Flux.",
+    "Status": "Published"
   },
   {
     "Serial": 97,
-    "Question": "Describe the high-level architecture of a distributed file system like HDFS. Explain the roles of the NameNode, DataNodes, and how it achieves fault tolerance for large files."
+    "Question": "Describe the high-level architecture of a distributed file system like HDFS. Explain the roles of the NameNode, DataNodes, and how it achieves fault tolerance for large files.",
+    "Status": "Published"
   },
   {
     "Serial": 98,
-    "Question": "What are the benefits of using a managed service like AWS EMR to run big data frameworks like Apache Spark and Hadoop, compared to setting up your own cluster on VMs?"
+    "Question": "What are the benefits of using a managed service like AWS EMR to run big data frameworks like Apache Spark and Hadoop, compared to setting up your own cluster on VMs?",
+    "Status": "Published"
   },
   {
     "Serial": 99,
-    "Question": "Design the backend for a search engine. Focus on the architecture of the indexing service and the query service. How would you store the inverted index to allow for fast lookups?"
+    "Question": "Design the backend for a search engine. Focus on the architecture of the indexing service and the query service. How would you store the inverted index to allow for fast lookups?",
+    "Status": "Published"
   },
   {
     "Serial": 100,
-    "Question": "What is Elasticsearch? How does it use an inverted index to provide fast full-text search capabilities? Discuss a use case beyond simple text search (e.g., log analytics)."
+    "Question": "What is Elasticsearch? How does it use an inverted index to provide fast full-text search capabilities? Discuss a use case beyond simple text search (e.g., log analytics).",
+    "Status": "Published"
   },
   {
     "Serial": 101,
