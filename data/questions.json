@@ -501,35 +501,43 @@
   },
   {
     "Serial": 101,
-    "Question": "Design a system to reliably count ad clicks at massive scale. The system must be able to handle high throughput and provide near real-time analytics while filtering out fraudulent clicks."
+    "Question": "Design a system to reliably count ad clicks at massive scale. The system must be able to handle high throughput and provide near real-time analytics while filtering out fraudulent clicks.",
+    "Status": "Published"
   },
   {
     "Serial": 102,
-    "Question": "What is Helm and what problem does it solve in the Kubernetes ecosystem? Explain the concepts of a Chart, a Release, and a Repository."
+    "Question": "What is Helm and what problem does it solve in the Kubernetes ecosystem? Explain the concepts of a Chart, a Release, and a Repository.",
+    "Status": "Published"
   },
   {
     "Serial": 103,
-    "Question": "Design a service like Yelp that allows users to find nearby points of interest. How would you store and query geospatial data efficiently? What data structure (e.g., Quadtree, Geohash) would you use?"
+    "Question": "Design a service like Yelp that allows users to find nearby points of interest. How would you store and query geospatial data efficiently? What data structure (e.g., Quadtree, Geohash) would you use?",
+    "Status": "Published"
   },
   {
     "Serial": 104,
-    "Question": "What is a WAF? How does it protect a web application from common vulnerabilities like SQL Injection and Cross-Site Scripting (XSS) at the edge of the network?"
+    "Question": "What is a WAF? How does it protect a web application from common vulnerabilities like SQL Injection and Cross-Site Scripting (XSS) at the edge of the network?",
+    "Status": "Published"
   },
   {
     "Serial": 105,
-    "Question": "Explain the Circuit Breaker pattern. How does it improve the resilience of a microservices architecture by preventing cascading failures? Describe its three states: Closed, Open, and Half-Open."
+    "Question": "Explain the Circuit Breaker pattern. How does it improve the resilience of a microservices architecture by preventing cascading failures? Describe its three states: Closed, Open, and Half-Open.",
+    "Status": "Published"
   },
   {
     "Serial": 106,
-    "Question": "How does a service mesh like Istio or Linkerd implement resilience patterns like retries, timeouts, and circuit breakers without requiring changes to the application code?"
+    "Question": "How does a service mesh like Istio or Linkerd implement resilience patterns like retries, timeouts, and circuit breakers without requiring changes to the application code?",
+    "Status": "Published"
   },
   {
     "Serial": 107,
-    "Question": "Design a high-level Real-Time Bidding system. This is a very low-latency, high-throughput problem. What are the architectural choices you'd make to meet a 100ms response deadline?"
+    "Question": "Design a high-level Real-Time Bidding system. This is a very low-latency, high-throughput problem. What are the architectural choices you'd make to meet a 100ms response deadline?",
+    "Status": "Published"
   },
   {
     "Serial": 108,
-    "Question": "What is Maximum Transmission Unit (MTU)? Explain what happens when a packet larger than the MTU of a network path needs to be transmitted, and the performance implications of fragmentation."
+    "Question": "What is Maximum Transmission Unit (MTU)? Explain what happens when a packet larger than the MTU of a network path needs to be transmitted, and the performance implications of fragmentation.",
+    "Status": "Published"
   },
   {
     "Serial": 109,
