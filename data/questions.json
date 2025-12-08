@@ -541,19 +541,23 @@
   },
   {
     "Serial": 109,
-    "Question": "Design the backend for a real-time collaborative editor. What are the challenges in handling concurrent edits? Discuss high-level approaches like Operational Transformation (OT) or CRDTs."
+    "Question": "Design the backend for a real-time collaborative editor. What are the challenges in handling concurrent edits? Discuss high-level approaches like Operational Transformation (OT) or CRDTs.",
+    "Status": "Published"
   },
   {
     "Serial": 110,
-    "Question": "Explain the difference between `git rebase` and `git merge`. When would you choose one over the other to integrate changes from one branch into another? What are the pros and cons of each?"
+    "Question": "Explain the difference between `git rebase` and `git merge`. When would you choose one over the other to integrate changes from one branch into another? What are the pros and cons of each?",
+    "Status": "Published"
   },
   {
     "Serial": 111,
-    "Question": "Why is idempotency crucial for designing reliable distributed systems? Provide three examples of how you would design an idempotent API endpoint for a payment processing service."
+    "Question": "Why is idempotency crucial for designing reliable distributed systems? Provide three examples of how you would design an idempotent API endpoint for a payment processing service.",
+    "Status": "Published"
   },
   {
     "Serial": 112,
-    "Question": "Why is it a bad practice to store secrets (like database passwords, API keys) in code or configuration files? How do tools like AWS Secrets Manager or Vault solve this problem securely?"
+    "Question": "Why is it a bad practice to store secrets (like database passwords, API keys) in code or configuration files? How do tools like AWS Secrets Manager or Vault solve this problem securely?",
+    "Status": "Published"
   },
   {
     "Serial": 113,
