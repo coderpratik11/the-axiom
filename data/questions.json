@@ -581,19 +581,23 @@
   },
   {
     "Serial": 117,
-    "Question": "Design a time-series monitoring system. How would you ingest, store, and query vast amounts of metrics data efficiently? Discuss the push vs. pull model for metrics collection."
+    "Question": "Design a time-series monitoring system. How would you ingest, store, and query vast amounts of metrics data efficiently? Discuss the push vs. pull model for metrics collection.",
+    "Status": "Published"
   },
   {
     "Serial": 118,
-    "Question": "What makes an effective observability dashboard? Using a tool like Grafana, sketch out a dashboard for a web API that shows key metrics like request rate, error rate, and latency percentiles (p50, p90, p99)."
+    "Question": "What makes an effective observability dashboard? Using a tool like Grafana, sketch out a dashboard for a web API that shows key metrics like request rate, error rate, and latency percentiles (p50, p90, p99).",
+    "Status": "Published"
   },
   {
     "Serial": 119,
-    "Question": "Design a scalable leaderboard for a gaming application with millions of users. How would you update scores and retrieve the top N users with low latency? (Hint: Redis Sorted Sets)."
+    "Question": "Design a scalable leaderboard for a gaming application with millions of users. How would you update scores and retrieve the top N users with low latency? (Hint: Redis Sorted Sets).",
+    "Status": "Published"
   },
   {
     "Serial": 120,
-    "Question": "What is a canary deployment? How does it reduce the risk of introducing a new software version in production compared to a traditional all-at-once deployment?"
+    "Question": "What is a canary deployment? How does it reduce the risk of introducing a new software version in production compared to a traditional all-at-once deployment?",
+    "Status": "Published"
   },
   {
     "Serial": 121,
