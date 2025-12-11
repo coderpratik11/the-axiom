@@ -601,19 +601,23 @@
   },
   {
     "Serial": 121,
-    "Question": "Design a simplified version of a distributed message broker like Kafka. How would you design the commit log, handle partitions for scalability, and manage consumer offsets for at-least-once delivery?"
+    "Question": "Design a simplified version of a distributed message broker like Kafka. How would you design the commit log, handle partitions for scalability, and manage consumer offsets for at-least-once delivery?",
+    "Status": "Published"
   },
   {
     "Serial": 122,
-    "Question": "How does a VPN work to create a secure connection over an insecure network? In a cloud context, what is the purpose of a VPC Endpoint or Private Link?"
+    "Question": "How does a VPN work to create a secure connection over an insecure network? In a cloud context, what is the purpose of a VPC Endpoint or Private Link?",
+    "Status": "Published"
   },
   {
     "Serial": 123,
-    "Question": "Explain the Trie data structure. How is it perfectly suited for implementing the backend of a typeahead suggestion service? Analyze its time complexity for insertion and search."
+    "Question": "Explain the Trie data structure. How is it perfectly suited for implementing the backend of a typeahead suggestion service? Analyze its time complexity for insertion and search.",
+    "Status": "Published"
   },
   {
     "Serial": 124,
-    "Question": "What is Global Server Load Balancing (GSLB)? How does it use DNS to route users to the geographically closest or healthiest application endpoint?"
+    "Question": "What is Global Server Load Balancing (GSLB)? How does it use DNS to route users to the geographically closest or healthiest application endpoint?",
+    "Status": "Published"
   },
   {
     "Serial": 125,
