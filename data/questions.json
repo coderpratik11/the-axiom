@@ -641,35 +641,43 @@
   },
   {
     "Serial": 129,
-    "Question": "Compare a multi-threaded server architecture (e.g., Apache) with a single-threaded event-loop model (e.g., Node.js). What are the pros and cons of each, especially regarding I/O-bound vs. CPU-bound tasks?"
+    "Question": "Compare a multi-threaded server architecture (e.g., Apache) with a single-threaded event-loop model (e.g., Node.js). What are the pros and cons of each, especially regarding I/O-bound vs. CPU-bound tasks?",
+    "Status": "Published"
   },
   {
     "Serial": 130,
-    "Question": "Describe the Blue-Green deployment strategy. How does it enable instant rollback? What are some challenges, especially concerning database schema changes?"
+    "Question": "Describe the Blue-Green deployment strategy. How does it enable instant rollback? What are some challenges, especially concerning database schema changes?",
+    "Status": "Published"
   },
   {
     "Serial": 131,
-    "Question": "In a distributed data store that uses a consensus algorithm (like Zookeeper), what is a quorum? Explain why it's recommended to have an odd number of nodes in a cluster (e.g., 3, 5, 7)."
+    "Question": "In a distributed data store that uses a consensus algorithm (like Zookeeper), what is a quorum? Explain why it's recommended to have an odd number of nodes in a cluster (e.g., 3, 5, 7).",
+    "Status": "Published"
   },
   {
     "Serial": 132,
-    "Question": "How does a native IaC tool like AWS CloudFormation differ from a cloud-agnostic one like Terraform? What is the concept of a 'stack' in CloudFormation?"
+    "Question": "How does a native IaC tool like AWS CloudFormation differ from a cloud-agnostic one like Terraform? What is the concept of a 'stack' in CloudFormation?",
+    "Status": "Published"
   },
   {
     "Serial": 133,
-    "Question": "Design a system for booking tickets for popular events. The primary challenge is the 'flash sale' scenario. How do you handle the massive burst of concurrent traffic and avoid overselling?"
+    "Question": "Design a system for booking tickets for popular events. The primary challenge is the 'flash sale' scenario. How do you handle the massive burst of concurrent traffic and avoid overselling?",
+    "Status": "Published"
   },
   {
     "Serial": 134,
-    "Question": "Explain the purpose of the following DNS record types: A, AAAA, CNAME, MX, and TXT. Provide a use case for each one."
+    "Question": "Explain the purpose of the following DNS record types: A, AAAA, CNAME, MX, and TXT. Provide a use case for each one.",
+    "Status": "Published"
   },
   {
     "Serial": 135,
-    "Question": "Explain how an LSM-Tree works. Why is this data structure, used by databases like Cassandra and RocksDB, highly optimized for write-heavy workloads?"
+    "Question": "Explain how an LSM-Tree works. Why is this data structure, used by databases like Cassandra and RocksDB, highly optimized for write-heavy workloads?",
+    "Status": "Published"
   },
   {
     "Serial": 136,
-    "Question": "What is the Kubernetes Operator pattern? How does it allow you to encode human operational knowledge into software to automate the management of complex, stateful applications?"
+    "Question": "What is the Kubernetes Operator pattern? How does it allow you to encode human operational knowledge into software to automate the management of complex, stateful applications?",
+    "Status": "Published"
   },
   {
     "Serial": 137,
