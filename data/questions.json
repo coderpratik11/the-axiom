@@ -681,35 +681,43 @@
   },
   {
     "Serial": 137,
-    "Question": "What is the Gossip protocol? How can it be used for service discovery or failure detection in a decentralized peer-to-peer network?"
+    "Question": "What is the Gossip protocol? How can it be used for service discovery or failure detection in a decentralized peer-to-peer network?",
+    "Status": "Published"
   },
   {
     "Serial": 138,
-    "Question": "What are the main advantages of using a managed Kubernetes service like EKS or GKE versus setting up a cluster from scratch on VMs? What part of the cluster do you still need to manage?"
+    "Question": "What are the main advantages of using a managed Kubernetes service like EKS or GKE versus setting up a cluster from scratch on VMs? What part of the cluster do you still need to manage?",
+    "Status": "Published"
   },
   {
     "Serial": 139,
-    "Question": "What are the architectural trade-offs of a FaaS/Serverless architecture? Discuss challenges like cold starts, state management, and debugging."
+    "Question": "What are the architectural trade-offs of a FaaS/Serverless architecture? Discuss challenges like cold starts, state management, and debugging.",
+    "Status": "Published"
   },
   {
     "Serial": 140,
-    "Question": "What is the Twelve-Factor App methodology? Pick three factors (e.g., Config, Dependencies, Logs) and explain how they contribute to building robust and scalable cloud-native applications."
+    "Question": "What is the Twelve-Factor App methodology? Pick three factors (e.g., Config, Dependencies, Logs) and explain how they contribute to building robust and scalable cloud-native applications.",
+    "Status": "Published"
   },
   {
     "Serial": 141,
-    "Question": "Design a proximity service that can tell a user the location of their friends in near real-time. How would you handle the frequent location updates from millions of users efficiently?"
+    "Question": "Design a proximity service that can tell a user the location of their friends in near real-time. How would you handle the frequent location updates from millions of users efficiently?",
+    "Status": "Published"
   },
   {
     "Serial": 142,
-    "Question": "What are the pillars of the AWS Well-Architected Framework (or its equivalent in GCP/Azure)? Pick one pillar (e.g., Security, Reliability) and describe two best practices."
+    "Question": "What are the pillars of the AWS Well-Architected Framework (or its equivalent in GCP/Azure)? Pick one pillar (e.g., Security, Reliability) and describe two best practices.",
+    "Status": "Published"
   },
   {
     "Serial": 143,
-    "Question": "Explain the PACELC theorem as an extension of CAP. How does it provide a more complete framework for understanding the trade-offs in distributed systems by including latency (L) and consistency (C)?"
+    "Question": "Explain the PACELC theorem as an extension of CAP. How does it provide a more complete framework for understanding the trade-offs in distributed systems by including latency (L) and consistency (C)?",
+    "Status": "Published"
   },
   {
     "Serial": 144,
-    "Question": "What is gRPC? How does it differ from REST over HTTP/1.1? Explain the roles of Protocol Buffers and HTTP/2 in its architecture."
+    "Question": "What is gRPC? How does it differ from REST over HTTP/1.1? Explain the roles of Protocol Buffers and HTTP/2 in its architecture.",
+    "Status": "Published"
   },
   {
     "Serial": 145,
