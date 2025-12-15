@@ -721,19 +721,23 @@
   },
   {
     "Serial": 145,
-    "Question": "Design a simplified ad network. Focus on the data pipeline that collects impression/click data, processes it, and generates reports for advertisers."
+    "Question": "Design a simplified ad network. Focus on the data pipeline that collects impression/click data, processes it, and generates reports for advertisers.",
+    "Status": "Published"
   },
   {
     "Serial": 146,
-    "Question": "What is the difference between Infrastructure Monitoring (CPU, memory, disk of servers) and Application Performance Monitoring (APM - tracing, latency of specific endpoints)? Why do you need both?"
+    "Question": "What is the difference between Infrastructure Monitoring (CPU, memory, disk of servers) and Application Performance Monitoring (APM - tracing, latency of specific endpoints)? Why do you need both?",
+    "Status": "Published"
   },
   {
     "Serial": 147,
-    "Question": "What are the common pitfalls and best practices for handling time zones in a global application? Why should servers almost always store and process time in UTC?"
+    "Question": "What are the common pitfalls and best practices for handling time zones in a global application? Why should servers almost always store and process time in UTC?",
+    "Status": "Published"
   },
   {
     "Serial": 148,
-    "Question": "How does a service like AWS CloudTrail provide a complete audit log of all API actions taken in your account? How can AWS Config be used to ensure your resources remain compliant with your policies?"
+    "Question": "How does a service like AWS CloudTrail provide a complete audit log of all API actions taken in your account? How can AWS Config be used to ensure your resources remain compliant with your policies?",
+    "Status": "Published"
   },
   {
     "Serial": 149,
