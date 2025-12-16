@@ -741,19 +741,23 @@
   },
   {
     "Serial": 149,
-    "Question": "Revisit the rate limiter design. Design a distributed rate limiter that can be shared across multiple API gateway instances. How would you store the counts with low latency (e.g., using Redis)?"
+    "Question": "Revisit the rate limiter design. Design a distributed rate limiter that can be shared across multiple API gateway instances. How would you store the counts with low latency (e.g., using Redis)?",
+    "Status": "Published"
   },
   {
     "Serial": 150,
-    "Question": "What is Policy as Code? How can a tool like Open Policy Agent (OPA) be used to enforce custom policies in your Kubernetes cluster (e.g., 'all images must come from a trusted registry')?"
+    "Question": "What is Policy as Code? How can a tool like Open Policy Agent (OPA) be used to enforce custom policies in your Kubernetes cluster (e.g., 'all images must come from a trusted registry')?",
+    "Status": "Published"
   },
   {
     "Serial": 151,
-    "Question": "Design a system for redeeming unique, single-use coupon codes. How do you prevent the same code from being used twice in a high-concurrency scenario? How do you generate millions of unique codes?"
+    "Question": "Design a system for redeeming unique, single-use coupon codes. How do you prevent the same code from being used twice in a high-concurrency scenario? How do you generate millions of unique codes?",
+    "Status": "Published"
   },
   {
     "Serial": 152,
-    "Question": "What is BGP hijacking? At a high level, explain how an attacker can illegitimately reroute internet traffic by announcing IP prefixes they do not own."
+    "Question": "What is BGP hijacking? At a high level, explain how an attacker can illegitimately reroute internet traffic by announcing IP prefixes they do not own.",
+    "Status": "Published"
   },
   {
     "Serial": 153,
