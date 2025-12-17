@@ -761,19 +761,23 @@
   },
   {
     "Serial": 153,
-    "Question": "Design a multi-tier caching architecture for a read-heavy application. Discuss the role and placement of a client-side cache, CDN cache, and a backend distributed cache (like Redis)."
+    "Question": "Design a multi-tier caching architecture for a read-heavy application. Discuss the role and placement of a client-side cache, CDN cache, and a backend distributed cache (like Redis).",
+    "Status": "Published"
   },
   {
     "Serial": 154,
-    "Question": "How does a cloud data warehouse like BigQuery differ from a traditional transactional database (OLTP)? Explain its columnar storage architecture and how it's optimized for analytical queries (OLAP)."
+    "Question": "How does a cloud data warehouse like BigQuery differ from a traditional transactional database (OLTP)? Explain its columnar storage architecture and how it's optimized for analytical queries (OLAP).",
+    "Status": "Published"
   },
   {
     "Serial": 155,
-    "Question": "What is graceful degradation? For an e-commerce site under extreme load, what non-critical features could you temporarily disable (e.g., recommendations, reviews) to protect the core checkout functionality?"
+    "Question": "What is graceful degradation? For an e-commerce site under extreme load, what non-critical features could you temporarily disable (e.g., recommendations, reviews) to protect the core checkout functionality?",
+    "Status": "Published"
   },
   {
     "Serial": 156,
-    "Question": "What are feature flags? How do they decouple code deployment from feature release, enabling practices like canary rollouts and A/B testing?"
+    "Question": "What are feature flags? How do they decouple code deployment from feature release, enabling practices like canary rollouts and A/B testing?",
+    "Status": "Published"
   },
   {
     "Serial": 157,
