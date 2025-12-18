@@ -781,19 +781,23 @@
   },
   {
     "Serial": 157,
-    "Question": "Revisit consistent hashing. How does the use of 'virtual nodes' or 'replicas' help to ensure a more even distribution of data across physical nodes and mitigate hot spots?"
+    "Question": "Revisit consistent hashing. How does the use of 'virtual nodes' or 'replicas' help to ensure a more even distribution of data across physical nodes and mitigate hot spots?",
+    "Status": "Published"
   },
   {
     "Serial": 158,
-    "Question": "According to the Performance Efficiency pillar of the Well-Architected Framework, what are the key areas to consider when designing a system (e.g., Selection, Review, Monitoring, Tradeoffs)?"
+    "Question": "According to the Performance Efficiency pillar of the Well-Architected Framework, what are the key areas to consider when designing a system (e.g., Selection, Review, Monitoring, Tradeoffs)?",
+    "Status": "Published"
   },
   {
     "Serial": 159,
-    "Question": "Design a stock photo website. Focus on the image processing pipeline (upload, thumbnail generation, metadata extraction) and the content delivery network strategy for fast global access."
+    "Question": "Design a stock photo website. Focus on the image processing pipeline (upload, thumbnail generation, metadata extraction) and the content delivery network strategy for fast global access.",
+    "Status": "Published"
   },
   {
     "Serial": 160,
-    "Question": "What are the main advantages of HTTP/3 over HTTP/2? Explain how its use of QUIC over UDP solves problems like head-of-line blocking at the transport layer."
+    "Question": "What are the main advantages of HTTP/3 over HTTP/2? Explain how its use of QUIC over UDP solves problems like head-of-line blocking at the transport layer.",
+    "Status": "Published"
   },
   {
     "Serial": 161,
