@@ -801,19 +801,23 @@
   },
   {
     "Serial": 161,
-    "Question": "What is the principle of 'Zero Trust' in network security? How does it differ from a traditional perimeter-based security model (i.e., castle-and-moat)?"
+    "Question": "What is the principle of 'Zero Trust' in network security? How does it differ from a traditional perimeter-based security model (i.e., castle-and-moat)?",
+    "Status": "Published"
   },
   {
     "Serial": 162,
-    "Question": "Explain the relationship between an Identity Provider (e.g., Okta, Google Identity) and a Service Provider (e.g., Salesforce, Slack) in a federated identity setup using SAML or OIDC."
+    "Question": "Explain the relationship between an Identity Provider (e.g., Okta, Google Identity) and a Service Provider (e.g., Salesforce, Slack) in a federated identity setup using SAML or OIDC.",
+    "Status": "Published"
   },
   {
     "Serial": 163,
-    "Question": "What is the CQRS pattern? How does separating the command model (for writes) from the query model (for reads) help in scaling complex domains?"
+    "Question": "What is the CQRS pattern? How does separating the command model (for writes) from the query model (for reads) help in scaling complex domains?",
+    "Status": "Published"
   },
   {
     "Serial": 164,
-    "Question": "What is Event Sourcing? How does it complement the CQRS pattern by storing the state of an application as a sequence of immutable events? What are the benefits for auditability?"
+    "Question": "What is Event Sourcing? How does it complement the CQRS pattern by storing the state of an application as a sequence of immutable events? What are the benefits for auditability?",
+    "Status": "Published"
   },
   {
     "Serial": 165,
