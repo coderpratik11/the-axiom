@@ -821,35 +821,43 @@
   },
   {
     "Serial": 165,
-    "Question": "Design a system for scanning, storing, and serving millions of books. Focus on the OCR (Optical Character Recognition) pipeline and the challenges of indexing a massive text corpus for search."
+    "Question": "Design a system for scanning, storing, and serving millions of books. Focus on the OCR (Optical Character Recognition) pipeline and the challenges of indexing a massive text corpus for search.",
+    "Status": "Published"
   },
   {
     "Serial": 166,
-    "Question": "What is mTLS? How does it provide strong, two-way authentication between services in a microservices architecture, ensuring that both client and server can verify each other's identity?"
+    "Question": "What is mTLS? How does it provide strong, two-way authentication between services in a microservices architecture, ensuring that both client and server can verify each other's identity?",
+    "Status": "Published"
   },
   {
     "Serial": 167,
-    "Question": "Design a service that allows developers to monitor their APIs. Focus on the data ingestion pipeline for metrics and logs, the time-series database storage, and the query/alerting system."
+    "Question": "Design a service that allows developers to monitor their APIs. Focus on the data ingestion pipeline for metrics and logs, the time-series database storage, and the query/alerting system.",
+    "Status": "Published"
   },
   {
     "Serial": 168,
-    "Question": "According to the Cost Optimization pillar, what are some key design principles for building cost-aware architectures? Discuss concepts like matching supply and demand, and analyzing spend."
+    "Question": "According to the Cost Optimization pillar, what are some key design principles for building cost-aware architectures? Discuss concepts like matching supply and demand, and analyzing spend.",
+    "Status": "Published"
   },
   {
     "Serial": 169,
-    "Question": "As an architect, how do you decide whether to build a new component from scratch versus buying a COTS (Commercial Off-The-Shelf) solution or using a SaaS provider? What factors (cost, expertise, time-to-market) influence this decision?"
+    "Question": "As an architect, how do you decide whether to build a new component from scratch versus buying a COTS (Commercial Off-The-Shelf) solution or using a SaaS provider? What factors (cost, expertise, time-to-market) influence this decision?",
+    "Status": "Published"
   },
   {
     "Serial": 170,
-    "Question": "Define Service Level Indicator (SLI), Service Level Objective (SLO), and Service Level Agreement (SLA). Provide a practical example for an API endpoint (e.g., p99 latency < 200ms)."
+    "Question": "Define Service Level Indicator (SLI), Service Level Objective (SLO), and Service Level Agreement (SLA). Provide a practical example for an API endpoint (e.g., p99 latency < 200ms).",
+    "Status": "Published"
   },
   {
     "Serial": 171,
-    "Question": "Compare and contrast the Lambda and Kappa architectures for big data processing. Why has the Kappa architecture gained popularity with the rise of modern streaming platforms like Kafka?"
+    "Question": "Compare and contrast the Lambda and Kappa architectures for big data processing. Why has the Kappa architecture gained popularity with the rise of modern streaming platforms like Kafka?",
+    "Status": "Published"
   },
   {
     "Serial": 172,
-    "Question": "What is a Data Lake? How does it differ from a Data Warehouse? Explain how a data lake can store structured, semi-structured, and unstructured data for various analytical workloads."
+    "Question": "What is a Data Lake? How does it differ from a Data Warehouse? Explain how a data lake can store structured, semi-structured, and unstructured data for various analytical workloads.",
+    "Status": "Published"
   },
   {
     "Serial": 173,
