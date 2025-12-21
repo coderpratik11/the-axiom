@@ -861,35 +861,43 @@
   },
   {
     "Serial": 173,
-    "Question": "Revisit the hotel booking problem. Design the database schema and locking strategy (e.g., pessimistic, optimistic with versioning) to handle concurrent requests for the same room and date range, ensuring no double bookings."
+    "Question": "Revisit the hotel booking problem. Design the database schema and locking strategy (e.g., pessimistic, optimistic with versioning) to handle concurrent requests for the same room and date range, ensuring no double bookings.",
+    "Status": "Published"
   },
   {
     "Serial": 174,
-    "Question": "What is threat modeling? For a simple e-commerce website, walk through a basic STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) analysis."
+    "Question": "What is threat modeling? For a simple e-commerce website, walk through a basic STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) analysis.",
+    "Status": "Published"
   },
   {
     "Serial": 175,
-    "Question": "Design a distributed, highly available system for running scheduled jobs (like cron). How do you prevent a job from running twice or not at all if a node fails? How do you handle jobs that overrun their schedule?"
+    "Question": "Design a distributed, highly available system for running scheduled jobs (like cron). How do you prevent a job from running twice or not at all if a node fails? How do you handle jobs that overrun their schedule?",
+    "Status": "Published"
   },
   {
     "Serial": 176,
-    "Question": "What is secret rotation and why is it a critical security practice? How can a secrets management tool like HashiCorp Vault or AWS Secrets Manager automate the process of rotating database credentials?"
+    "Question": "What is secret rotation and why is it a critical security practice? How can a secrets management tool like HashiCorp Vault or AWS Secrets Manager automate the process of rotating database credentials?",
+    "Status": "Published"
   },
   {
     "Serial": 177,
-    "Question": "Design a system to prevent other websites from embedding your images or videos on their pages, which consumes your bandwidth. Discuss solutions like checking the HTTP Referer header and using signed URLs."
+    "Question": "Design a system to prevent other websites from embedding your images or videos on their pages, which consumes your bandwidth. Discuss solutions like checking the HTTP Referer header and using signed URLs.",
+    "Status": "Published"
   },
   {
     "Serial": 178,
-    "Question": "What is CORS and what security problem does the Same-Origin Policy solve? Explain the role of the `Access-Control-Allow-Origin` header in a simple CORS request."
+    "Question": "What is CORS and what security problem does the Same-Origin Policy solve? Explain the role of the `Access-Control-Allow-Origin` header in a simple CORS request.",
+    "Status": "Published"
   },
   {
     "Serial": 179,
-    "Question": "Design the backend for a massive multiplayer online game. Focus on the architecture for matchmaking, managing player state in real-time across a large world, and minimizing latency."
+    "Question": "Design the backend for a massive multiplayer online game. Focus on the architecture for matchmaking, managing player state in real-time across a large world, and minimizing latency.",
+    "Status": "Published"
   },
   {
     "Serial": 180,
-    "Question": "What is edge computing? How can services like AWS Wavelength or Cloudflare Workers be used to deploy application logic closer to end-users, especially for latency-sensitive applications like online gaming?"
+    "Question": "What is edge computing? How can services like AWS Wavelength or Cloudflare Workers be used to deploy application logic closer to end-users, especially for latency-sensitive applications like online gaming?",
+    "Status": "Published"
   },
   {
     "Serial": 181,
