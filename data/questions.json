@@ -901,19 +901,23 @@
   },
   {
     "Serial": 181,
-    "Question": "Design a simplified PaaS like Heroku. How would you take a developer's `git push`, build it into a container, deploy it, and manage its lifecycle and networking?"
+    "Question": "Design a simplified PaaS like Heroku. How would you take a developer's `git push`, build it into a container, deploy it, and manage its lifecycle and networking?",
+    "Status": "Published"
   },
   {
     "Serial": 182,
-    "Question": "What is immutable infrastructure? Why is it a more reliable and predictable approach to manage infrastructure compared to mutable infrastructure where servers are updated in-place?"
+    "Question": "What is immutable infrastructure? Why is it a more reliable and predictable approach to manage infrastructure compared to mutable infrastructure where servers are updated in-place?",
+    "Status": "Published"
   },
   {
     "Serial": 183,
-    "Question": "For a new social media startup, discuss the trade-offs between Time-to-Market, Cost, Scalability, and Reliability. How would your architectural choices differ at Day 1 vs. Day 365?"
+    "Question": "For a new social media startup, discuss the trade-offs between Time-to-Market, Cost, Scalability, and Reliability. How would your architectural choices differ at Day 1 vs. Day 365?",
+    "Status": "Published"
   },
   {
     "Serial": 184,
-    "Question": "What is the difference between a multi-cloud and a hybrid cloud strategy? What are the primary drivers (e.g., cost optimization, disaster recovery, avoiding vendor lock-in) for an enterprise to adopt such a strategy?"
+    "Question": "What is the difference between a multi-cloud and a hybrid cloud strategy? What are the primary drivers (e.g., cost optimization, disaster recovery, avoiding vendor lock-in) for an enterprise to adopt such a strategy?",
+    "Status": "Published"
   },
   {
     "Serial": 185,
