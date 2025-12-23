@@ -921,19 +921,23 @@
   },
   {
     "Serial": 185,
-    "Question": "How does incorporating a Large Language Model (e.g., Gemini) impact system architecture? Discuss new components needed, such as vector databases for RAG, prompt management systems, and handling streaming responses."
+    "Question": "How does incorporating a Large Language Model (e.g., Gemini) impact system architecture? Discuss new components needed, such as vector databases for RAG, prompt management systems, and handling streaming responses.",
+    "Status": "Published"
   },
   {
     "Serial": 186,
-    "Question": "What is a vector database (e.g., Pinecone, Chroma)? Why is it essential for building applications that perform semantic search or implement Retrieval-Augmented Generation (RAG) with LLMs?"
+    "Question": "What is a vector database (e.g., Pinecone, Chroma)? Why is it essential for building applications that perform semantic search or implement Retrieval-Augmented Generation (RAG) with LLMs?",
+    "Status": "Published"
   },
   {
     "Serial": 187,
-    "Question": "Design a service like Pastebin.com. How would you generate unique, memorable URLs? How would you handle custom URLs, expiration of pastes, and syntax highlighting?"
+    "Question": "Design a service like Pastebin.com. How would you generate unique, memorable URLs? How would you handle custom URLs, expiration of pastes, and syntax highlighting?",
+    "Status": "Published"
   },
   {
     "Serial": 188,
-    "Question": "According to the Reliability pillar, what are the three key areas for designing reliable systems? (Foundations, Change Management, Failure Management). Give an example for each."
+    "Question": "According to the Reliability pillar, what are the three key areas for designing reliable systems? (Foundations, Change Management, Failure Management). Give an example for each.",
+    "Status": "Published"
   },
   {
     "Serial": 189,
