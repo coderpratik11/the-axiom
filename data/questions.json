@@ -941,19 +941,23 @@
   },
   {
     "Serial": 189,
-    "Question": "Design the architecture for a 'Google Docs' like application that supports offline editing. How would you store local changes and synchronize them with the server once connectivity is restored? What is the challenge of conflict resolution?"
+    "Question": "Design the architecture for a 'Google Docs' like application that supports offline editing. How would you store local changes and synchronize them with the server once connectivity is restored? What is the challenge of conflict resolution?",
+    "Status": "Published"
   },
   {
     "Serial": 190,
-    "Question": "What are some best practices for managing database schema migrations in a CI/CD pipeline, especially in a zero-downtime deployment scenario? Discuss tools like Flyway or Liquibase."
+    "Question": "What are some best practices for managing database schema migrations in a CI/CD pipeline, especially in a zero-downtime deployment scenario? Discuss tools like Flyway or Liquibase.",
+    "Status": "Published"
   },
   {
     "Serial": 191,
-    "Question": "Describe a step-by-step framework for approaching a system design interview. Include clarifying requirements, defining the scope, high-level design, deep dive into components, and discussing trade-offs."
+    "Question": "Describe a step-by-step framework for approaching a system design interview. Include clarifying requirements, defining the scope, high-level design, deep dive into components, and discussing trade-offs.",
+    "Status": "Published"
   },
   {
     "Serial": 192,
-    "Question": "Trace the complete journey of a packet from your laptop on a Wi-Fi network to a server in a different country. Mention key steps like local routing, NAT, ISP routing (BGP), and data center networking."
+    "Question": "Trace the complete journey of a packet from your laptop on a Wi-Fi network to a server in a different country. Mention key steps like local routing, NAT, ISP routing (BGP), and data center networking.",
+    "Status": "Published"
   },
   {
     "Serial": 193,
