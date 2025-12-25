@@ -961,19 +961,23 @@
   },
   {
     "Serial": 193,
-    "Question": "Design the core features of Instagram: photo/video uploads, the news feed, and the follower graph. Be prepared to discuss the storage for media, the data models, and the fan-out logic for the feed."
+    "Question": "Design the core features of Instagram: photo/video uploads, the news feed, and the follower graph. Be prepared to discuss the storage for media, the data models, and the fan-out logic for the feed.",
+    "Status": "Published"
   },
   {
     "Serial": 194,
-    "Question": "Review the three pillars of observability: Metrics, Logs, and Traces. How do they work together to give you a complete picture of your system's health and performance?"
+    "Question": "Review the three pillars of observability: Metrics, Logs, and Traces. How do they work together to give you a complete picture of your system's health and performance?",
+    "Status": "Published"
   },
   {
     "Serial": 195,
-    "Question": "Design a distributed web crawler that can crawl billions of pages. Discuss how to manage the list of URLs to visit, how to handle politeness (robots.txt), and how to process and store the downloaded content."
+    "Question": "Design a distributed web crawler that can crawl billions of pages. Discuss how to manage the list of URLs to visit, how to handle politeness (robots.txt), and how to process and store the downloaded content.",
+    "Status": "Published"
   },
   {
     "Serial": 196,
-    "Question": "Review key cloud-native design patterns like Sidecar, Ambassador, and Adapter. How do these patterns, often used in Kubernetes, help extend application functionality without changing the core code?"
+    "Question": "Review key cloud-native design patterns like Sidecar, Ambassador, and Adapter. How do these patterns, often used in Kubernetes, help extend application functionality without changing the core code?",
+    "Status": "Published"
   },
   {
     "Serial": 197,
