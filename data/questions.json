@@ -981,18 +981,22 @@
   },
   {
     "Serial": 197,
-    "Question": "Design a global video-on-demand streaming service. Focus on the video processing pipeline, the storage and CDN strategy, and the backend services that handle metadata, user profiles, and recommendations."
+    "Question": "Design a global video-on-demand streaming service. Focus on the video processing pipeline, the storage and CDN strategy, and the backend services that handle metadata, user profiles, and recommendations.",
+    "Status": "Published"
   },
   {
     "Serial": 198,
-    "Question": "Review the full CI/CD pipeline from code commit to production. Compare the pros and cons of rolling updates, blue-green deployments, and canary releases. When would you use each?"
+    "Question": "Review the full CI/CD pipeline from code commit to production. Compare the pros and cons of rolling updates, blue-green deployments, and canary releases. When would you use each?",
+    "Status": "Published"
   },
   {
     "Serial": 199,
-    "Question": "Synthesize everything you've learned to design Twitter. You must consider the Tweet service, Timeline/Feed generation service, User/Graph service, Search, and Trending Topics. Sketch the complete, high-level architecture."
+    "Question": "Synthesize everything you've learned to design Twitter. You must consider the Tweet service, Timeline/Feed generation service, User/Graph service, Search, and Trending Topics. Sketch the complete, high-level architecture.",
+    "Status": "Published"
   },
   {
     "Serial": 200,
-    "Question": "The journey is complete, but learning never stops. What are your strategies for staying current with the ever-changing landscape of technology? (e.g., reading engineering blogs, attending conferences, contributing to open source)."
+    "Question": "The journey is complete, but learning never stops. What are your strategies for staying current with the ever-changing landscape of technology? (e.g., reading engineering blogs, attending conferences, contributing to open source).",
+    "Status": "Published"
   }
 ]
